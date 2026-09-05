@@ -1,125 +1,203 @@
 # Probe 001 — Imperative 2nd person as address marker
 # sl Freising Monuments  +  lt Vilnius prayers
+# Schema version: 0.1 (post-audit, 2026-09-05)
 
+probe-schema: 0.1
 probe_id: 001
 title: >
-  Imperative 2nd person as an address marker: does either text
-  productively distinguish 2SG vs 2PL address, and what does that
-  imply for inherited number categories?
+  Imperative 2nd person as an address marker in penitential prayer:
+  does either text productively distinguish 2SG vs 2PL address?
 
-note: >
-  Narrow semantic/grammatical probe ONLY. Not a comparison of
-  "Slovenian vs Lithuanian". One grammatical category (person/number
-  of the imperative as address marker) checked in two witness texts.
+question: >
+  Is the 2SG/2PL imperative opposition productively attested as an
+  address-marking system in these two witness texts?  Where 2PL is
+  absent, is that absence STRUCTURAL (the language lacks the grid)
+  or TEXT-CONTINGENT (the source text's theology constrains the slice)?
 
+## ————— SELECTION —————
+selection:
+  semantic_basis: >
+    Penitential prayer is the shared domain: speaker confesses (1SG)
+    and addresses God (2SG) and/or human addressees (2SG/2PL).  This
+    gives a stable 2nd-person number grid to inspect.
+  why_these_texts: >
+    sl: Freising Monuments — earliest SL witness (pre-1000), full
+    penitential cycle, [LIVE-TEXT]; lt: Vilnius prayers (~1520) —
+    earliest LT witness, Pater Noster / Ave / Creed, [PARTIAL].
+    Two Indo-European branches, shared Christian-translation domain,
+    same structural slot (imperative), different attestation depth.
+  preselected_before_form_search: true
+  selection_locked_at: >
+    COMMIT ecc9754 (2026-09-05): probe category (imperative 2nd
+    person) chosen by agent BEFORE reading forms.  Forms extracted
+    after lock; no post-hoc selection of categories from results.
+
+## ————— WITNESSES —————
 witnesses:
-  - lang: sl
+  - language: sl
+    source_id: Freising Monuments, Text I + II + III
+    witness_status: LIVE-TEXT
     file: corpus/sl/freising-manuscripts-bs-critical.md
-    status: LIVE-TEXT
-  - lang: lt
+    observations:
+      attested:
+        - >
+          2SG imperative to God: "Bose ... primi" (I), "Otpusti" (I),
+          "Dai mi" (III)
+        - >
+          2PL imperative to human addressees: "Pridete, Otza mega
+          izvuolieni" (I, Mt 25:34 par.)
+        - >
+          2PL modal (imperative context): "Mosete ... uvideti" (II),
+          addressed to "bratria" (vocative pl.)
+      unattested_in_slice: >
+        2PL imperative appears only once ("Pridete") in three texts;
+        dual imperative absent from the entire critical-transcription
+        slice
+      not_testable:
+        - >
+          Whether 2PL in this slice is FELT as plural address or as
+          formal deference — pragmatic distinction unavailable from text alone
+    absence:
+      type: text-contingent
+      reason: >
+        Only one 2PL imperative surfaced (three texts, ~130 lines);
+        dual imperative absent entirely.  This is a sampling artifact,
+        not proof that the category is absent in early Slovenian.
+    confidence: high
+      (LIVE-TEXT; Grdina 2007 critical transcription; dual absence
+      verified against full slice)
+
+  - language: lt
+    source_id: Vilnius prayers (Tėve mūsų / Sveika Marija / Cikiu)
+    witness_status: PARTIAL
     file: corpus/lt/vilnius-prayers-dzP-ca1520.md
-    status: PARTIAL
+    observations:
+      attested:
+        - >
+          2SG imperative to God: "duoki mumus", "atlaiski mumus",
+          "Neveski mūsų žalānu", "gelbēki ... nuogi visā piktā"
+          (Pater Noster, all address God)
+      unattested_in_slice: >
+        2PL imperative: zero tokens in the entire text.  All imperatives
+        are 2SG.
+      not_testable:
+        - >
+          Whether the translation-through-Belarusian/Polish constrains
+          the singular; whether longer LT texts attest 2PL imperative
+        - >
+          Dual entirely absent (see corpus note in
+          vilnius-prayers-dzP-ca1520.md, section "Для лабораторії")
+    absence:
+      type: text-contingent
+      reason: >
+        All four imperative 2SG tokens address God directly; the Ave
+        Mary also addresses Mary in 2SG.  A text containing Pater +
+        Ave + Creed will structurally never surface 2PL imperative —
+        there is no plural human addressee in these three prayers.
+    confidence: medium
+      (PARTIAL text; evidence is from the standard-transcription
+      editorial layer; dual absence reliable but 2PL absence is
+       confirmed by genre, not by linguistic sampling)
 
-## ————— GRAMMATICAL CATEGORY UNDER TEST —————
-axis:
-  category: imperative-2nd-person
-  dimension: number-grid-of-address (2SG / 2PL)
-  semantics: >
-    Both texts are Christian penitential prayers. Address is directed
-    at God (2SG) and/or at a human addressee (2SG or 2PL). The probe
-    checks whether the imperative morphologically encodes number of
-    addressee.
-
-## ————— EVIDENCE: sl FREISING —————
-evidence_sl:
+## ————— EVIDENCE (exact forms) —————
+evidence:
   - form: "Pridete, Otza mega izvuolieni"
-    gloss:   come.2PL, chosen ones of my Father (Mt 25:34)
-    address: 2PL (addressed to "izvuolieni", pl)
+    source: sl-Freising I
+    gloss: come.2PL, chosen-ones of Father my
+    address: 2PL (human, plural)
     form_class: imperative 2PL
-    sentence: I (line: Pridete ...)
-  - form: "Mosete ... uvideti"
-    gloss:   you-may.2PL ... see
-    address: 2PL (addressed to "zinzi/bratria", pl)
-    form_class: present 2PL (modal; imperative context)
-    sentence: II
-  - note: >
-      No other explicit 2PL imperative surfaced in the current
-      critical-transcription slice (only "Pridete"); the slice under-
-      attests 2PL, it does not prove its absence in the language.
-  - finding: >
-    Freising productively uses 2PL imperative ("Pridete") for plural
-    human addressees. Divine address elsewhere uses 2SG (e.g. "Bose ...
-    primi", "Otpusti", "Dai mi"). Grid {2SG, 2PL} observed.
-  - dual_witness: none in imperative forms extracted (dual not
-    attested in the imperative of these texts)
-
-## ————— EVIDENCE: lt VILNIUS PRAYERS —————
-evidence_lt:
-  - form: "Tēve mūsų ... duoki mumus"
-    gloss: Father our ... give.2SG us
-    address: 2SG (God)
+  - form: "Bose ... primi moiv izpovued"
+    source: sl-Freising I
+    gloss: God ... receive.2SG my confession
+    address: 2SG (divine)
     form_class: imperative 2SG
-    sentence: Pater noster
+  - form: "Dai mi, Bose Gozpodi"
+    source: sl-Freising III
+    gloss: give.2SG me, God Lord
+    address: 2SG (divine)
+    form_class: imperative 2SG
+  - form: "duoki mumus"
+    source: lt-Pater noster
+    gloss: give.2SG us
+    address: 2SG (divine)
+    form_class: imperative 2SG
   - form: "atlaiski mumus"
-    gloss:  forgive.2SG us
-    address: 2SG (God)
+    source: lt-Pater noster
+    gloss: forgive.2SG us
+    address: 2SG (divine)
     form_class: imperative 2SG
-    sentence: Pater noster
   - form: "Neveski mūsų žalānu"
+    source: lt-Pater noster
     gloss: lead.2SG us not-into temptation
-    address: 2SG (God)
+    address: 2SG (divine)
     form_class: imperative (jussive) 2SG
-    sentence: Pater noster
   - form: "gelbēki ... nuogi visā piktā"
-    gloss: deliver.2SG ... from-every evil
-    address: 2SG (God)
+    source: lt-Pater noster
+    gloss: deliver.2SG ... from every evil
+    address: 2SG (divine)
     form_class: imperative 2SG
-    sentence: Pater noster
-  - finding: >
-    In the "Sveika Marija" section the human addressee is Mary, still
-    2SG imperative / 2SG passive ("Pagirta Tu"). No 2PL imperative
-    attested in this short text. Grid observed: {2SG} only.
-  - dual_witness: none (no dual anywhere in the text; see corpus note)
 
-## ————— CONTRAST / COMPARISON —————
+## ————— COMPARISON —————
 comparison:
-  shared: >
+  common_function: >
     Both texts use 2SG imperative as the productive divine-address
-    marker. Both are first-person penitential (speaker confesses /
-    asks).
-  difference: >
-    Freising additionally shows 2PL imperative for plural human
-    addressees; the short Vilnius prayers happen to use 2SG only
-    (addressee is God, and Mary as 2SG). The difference is
-    TEXT-CONTINGENT, not a structural difference in the languages.
-  inherited_vs_contact: >
-    The 2SG/2PL imperative opposition is common inherited
-    Indo-European number inflection (also in Sanskrit). No evidence
-    here of contact-mediated imperative morphology. The dual is NOT
-    exemplified by these two texts' imperatives.
-  risk: >
-    Vilnius prayers are a translation (through Belarusian/Polish);
-    their 2SG-only imperative reflects the source text's singular
-    address, not necessarily a Lithuanian structural fact.
-    Do not infer structural number-grid from this small slice.
+    marker; both are 1SG penitential (speaker confesses and asks).
+  formal_difference: >
+    sl shows both 2SG and 2PL imperative in the same text (divine vs
+    human addressee). lt shows 2SG only. This difference is
+    TEXT-CONTINGENT (genre of the three-prayer bundle), not structural.
+  inheritance_claim: NONE
+    >
+    The 2SG/2PL imperative opposition is common inherited Indo-European
+    (cf. Sanskrit 2SG -dhi / 2PL -ta).  No claim that this probe
+    distinguishes inherited from contact.
 
-## ————— METHOD CHECK (meta) —————
-meta_check:
+## ————— COUNTEREVIDENCE —————
+counterevidence:
+  - >
+    Vilnius prayers are a translation through Belarusian/Polish; their
+    2SG-only imperative reflects the source text, not necessarily the
+    Lithuanian structural number-grid.  A translation text cannot serve
+    as strong evidence for what a language structurally permits.
+  - >
+    Freising slice is short (~130 lines).  "Pridete" is the only 2PL
+    imperative token; this is too thin to claim a "productive" system
+    in Freising, only an attested one.
+  - >
+    Dual is absent in both imperatives, but that is uninformative:
+    IE imperative dual is rare even in well-attested languages.
+
+## ————— ERRORS CORRECTED —————
+errors_corrected:
+  - >
+    Initial draft included "posluchayte" as 'not found in slice' —
+    this was a hallucinated form.  Corrected by replacing with an
+    explicit absence statement.  This is the first test-case of
+    CORE-RULE-honesty-over-beauty in the alignment workflow.
+
+## ————— META —————
+meta:
   did_fields_help: true
-  fields_used: [witness, exact_form, grammatical_form, context, address]
-  suggestion_dual: >
-    Dual is the natural next narrow probe, but it is better tested
-    on a text that actually attests dual forms. Freising critical
-    prepis slice here does not robustly attest imperative dual; use a
-    different category (e.g. nominal dual in Freising vs Sanskrit) if
-    the dual probe is wanted.
+  fields_used: [witness, exact_form, grammatical_analysis, context,
+                 address, absence.type, absence.reason]
+  fields_missed: >
+    normalized_form was not used (forms already from critical edition
+    / standard transcription); could matter when working from
+    diplomatic transcription of Skaryna where OCR errors appear.
 
 ## ————— STATUS —————
-status:
-  probe_validity: VALID-CONTAINED
-  lesson: >
-    Category-based probes (person/number grid) avoid the
-    "similar-sounding word" trap. But a single short text can under-
-    attest a category; absence of 2PL in Vilnius prayers is
-    TEXT-CONTINGENT, not linguistic absence.
-  next_action: option-skaryna-1517
+result:
+  status: partial
+  summary: >
+    2SG divine-address imperative IS robustly shared and structurally
+    parallel in both texts.  2PL imperative is attested in sl but not
+    lt — and that absence is text-contingent, not structural.  The
+    probe DID identify a real structural slot (number-of-addressee in
+    imperative) and DID correctly classify an absence.  The probe
+    CANNOT support a stronger inheritance claim from these two
+    witnesses alone.
+
+next_probe: >
+  Probe 002: not chosen yet.  The probe schema (0.1) held.  Next step
+  per owner plan: Skaryna 1517 (be) as third LIVE witness, to be
+  added to corpus before the next grammatical probe is designed.
