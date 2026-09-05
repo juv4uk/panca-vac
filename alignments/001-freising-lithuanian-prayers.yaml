@@ -1,0 +1,125 @@
+# Probe 001 — Imperative 2nd person as address marker
+# sl Freising Monuments  +  lt Vilnius prayers
+
+probe_id: 001
+title: >
+  Imperative 2nd person as an address marker: does either text
+  productively distinguish 2SG vs 2PL address, and what does that
+  imply for inherited number categories?
+
+note: >
+  Narrow semantic/grammatical probe ONLY. Not a comparison of
+  "Slovenian vs Lithuanian". One grammatical category (person/number
+  of the imperative as address marker) checked in two witness texts.
+
+witnesses:
+  - lang: sl
+    file: corpus/sl/freising-manuscripts-bs-critical.md
+    status: LIVE-TEXT
+  - lang: lt
+    file: corpus/lt/vilnius-prayers-dzP-ca1520.md
+    status: PARTIAL
+
+## ————— GRAMMATICAL CATEGORY UNDER TEST —————
+axis:
+  category: imperative-2nd-person
+  dimension: number-grid-of-address (2SG / 2PL)
+  semantics: >
+    Both texts are Christian penitential prayers. Address is directed
+    at God (2SG) and/or at a human addressee (2SG or 2PL). The probe
+    checks whether the imperative morphologically encodes number of
+    addressee.
+
+## ————— EVIDENCE: sl FREISING —————
+evidence_sl:
+  - form: "Pridete, Otza mega izvuolieni"
+    gloss:   come.2PL, chosen ones of my Father (Mt 25:34)
+    address: 2PL (addressed to "izvuolieni", pl)
+    form_class: imperative 2PL
+    sentence: I (line: Pridete ...)
+  - form: "Mosete ... uvideti"
+    gloss:   you-may.2PL ... see
+    address: 2PL (addressed to "zinzi/bratria", pl)
+    form_class: present 2PL (modal; imperative context)
+    sentence: II
+  - note: >
+      No other explicit 2PL imperative surfaced in the current
+      critical-transcription slice (only "Pridete"); the slice under-
+      attests 2PL, it does not prove its absence in the language.
+  - finding: >
+    Freising productively uses 2PL imperative ("Pridete") for plural
+    human addressees. Divine address elsewhere uses 2SG (e.g. "Bose ...
+    primi", "Otpusti", "Dai mi"). Grid {2SG, 2PL} observed.
+  - dual_witness: none in imperative forms extracted (dual not
+    attested in the imperative of these texts)
+
+## ————— EVIDENCE: lt VILNIUS PRAYERS —————
+evidence_lt:
+  - form: "Tēve mūsų ... duoki mumus"
+    gloss: Father our ... give.2SG us
+    address: 2SG (God)
+    form_class: imperative 2SG
+    sentence: Pater noster
+  - form: "atlaiski mumus"
+    gloss:  forgive.2SG us
+    address: 2SG (God)
+    form_class: imperative 2SG
+    sentence: Pater noster
+  - form: "Neveski mūsų žalānu"
+    gloss: lead.2SG us not-into temptation
+    address: 2SG (God)
+    form_class: imperative (jussive) 2SG
+    sentence: Pater noster
+  - form: "gelbēki ... nuogi visā piktā"
+    gloss: deliver.2SG ... from-every evil
+    address: 2SG (God)
+    form_class: imperative 2SG
+    sentence: Pater noster
+  - finding: >
+    In the "Sveika Marija" section the human addressee is Mary, still
+    2SG imperative / 2SG passive ("Pagirta Tu"). No 2PL imperative
+    attested in this short text. Grid observed: {2SG} only.
+  - dual_witness: none (no dual anywhere in the text; see corpus note)
+
+## ————— CONTRAST / COMPARISON —————
+comparison:
+  shared: >
+    Both texts use 2SG imperative as the productive divine-address
+    marker. Both are first-person penitential (speaker confesses /
+    asks).
+  difference: >
+    Freising additionally shows 2PL imperative for plural human
+    addressees; the short Vilnius prayers happen to use 2SG only
+    (addressee is God, and Mary as 2SG). The difference is
+    TEXT-CONTINGENT, not a structural difference in the languages.
+  inherited_vs_contact: >
+    The 2SG/2PL imperative opposition is common inherited
+    Indo-European number inflection (also in Sanskrit). No evidence
+    here of contact-mediated imperative morphology. The dual is NOT
+    exemplified by these two texts' imperatives.
+  risk: >
+    Vilnius prayers are a translation (through Belarusian/Polish);
+    their 2SG-only imperative reflects the source text's singular
+    address, not necessarily a Lithuanian structural fact.
+    Do not infer structural number-grid from this small slice.
+
+## ————— METHOD CHECK (meta) —————
+meta_check:
+  did_fields_help: true
+  fields_used: [witness, exact_form, grammatical_form, context, address]
+  suggestion_dual: >
+    Dual is the natural next narrow probe, but it is better tested
+    on a text that actually attests dual forms. Freising critical
+    prepis slice here does not robustly attest imperative dual; use a
+    different category (e.g. nominal dual in Freising vs Sanskrit) if
+    the dual probe is wanted.
+
+## ————— STATUS —————
+status:
+  probe_validity: VALID-CONTAINED
+  lesson: >
+    Category-based probes (person/number grid) avoid the
+    "similar-sounding word" trap. But a single short text can under-
+    attest a category; absence of 2PL in Vilnius prayers is
+    TEXT-CONTINGENT, not linguistic absence.
+  next_action: option-skaryna-1517
