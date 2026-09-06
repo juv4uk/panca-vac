@@ -1,8 +1,6 @@
 # pañca-vāc (पञ्चवाच्) — «П'ять голосів»
 
-Порівняльно-мовний експеримент: свідчення → observation → alignment → гіпотези.
-
-> Жодна подібність не є історичним зв'язком без незалежних свідчень.
+Свідчення → observation → alignment → гіпотези.
 
 ```text
 SAME FORM ≠ SAME MEANING ≠ COMMON INHERITANCE
@@ -15,36 +13,31 @@ TEXTUAL COMPOSITION ≠ SURVIVING WITNESS ≠ DATE OF MANUSCRIPT
 
 ## Статус
 
-### Корпус
-
-| Мова | Текст у репо |
-|------|----------------|
+| Мова | Текст |
+|------|--------|
 | **sl** Freising | LIVE-TEXT |
-| **lt** Vilnius ~1520 | PARTIAL |
-| **lt** Mažvydas 1547 | **PARTIAL-LIVE-TEXT** (Wikisource) |
+| **lt** Vilnius / Mažvydas | PARTIAL-LIVE-TEXT |
 | **be** Skaryna | PARTIAL (preface) |
 | **uk** Пересопниця | METADATA-ONLY |
-| **sa** | notes / date layers |
+| **sa** | date layers |
 
 ### Observations
 
 | ID | Результат |
 |----|-----------|
 | [sl-001](observations/sl-001-freising-imperative-number.md) | 2SG+2PL |
-| [lt-001](observations/lt-001-vilnius-imperative-number.md) | 2SG only (genre) |
-| [lt-002](observations/lt-002-mazvydas-imperative-number.md) | **2PL productive** + 2SG Decalogue — falsifies structural reading of lt-001 |
-| [be-001](observations/be-001-skaryna-preface-address.md) | not probe-001 genre |
+| [lt-001](observations/lt-001-vilnius-imperative-number.md) | 2SG only in prayers |
+| [lt-002](observations/lt-002-mazvydas-imperative-number.md) | 2PL productive in preface |
+| [lt-003](observations/lt-003-mazvydas-pater-vs-vilnius.md) | same-genre Pater 2SG parallel |
+| [be-001](observations/be-001-skaryna-preface-address.md) | genre mismatch |
 | [uk-001](observations/uk-001-peresopnytsia-access.md) | access gate |
 | [sa-001](observations/sa-001-date-layers.md) | date discipline |
 
 ### Alignments
 
-- [001](alignments/001-freising-lithuanian-prayers.yaml) — partial (sl+lt)
-- [001-STATUS](alignments/001-STATUS.md) — closed for equal cells; lt-002 supports text-contingent absence in lt-001
+[001](alignments/001-freising-lithuanian-prayers.yaml) partial · [001-STATUS](alignments/001-STATUS.md)
 
-### Hypotheses
-
-Порожньо.
+Hypotheses: порожньо.
 
 ---
 
