@@ -1,42 +1,30 @@
 # pañca-vāc (पञ्चवाच्) — «П'ять голосів»
 
-Експериментальний порівняльно-мовний корпус п'яти мов, побудований на
-принципі незалежних свідчень.
+Порівняльно-мовний експеримент на **п'яти незалежних корпусах**.
 
-## Предмет
-
-Не «як слово X пов'язане із санскритом?», а:
+Не «як слово X пов'язане із санскритом?», а: спочатку свідчення → потім alignment → лише тоді гіпотези.
 
 ```text
-П'ЯТЬ МОВ
-   │
-   ├── Sanskrit
-   ├── Lithuanian
-   ├── Slovenian
-   ├── Ukrainian
-   └── Belarusian
-   │
-   ▼
-РАННІ РЕАЛЬНІ СВІДЧЕННЯ
-   │
-   ▼
-незалежне вилучення форм і конструкцій
-   │
-   ▼
-порівняння (alignment)
-   │
-   ▼
+Sanskrit · Lithuanian · Slovenian · Ukrainian · Belarusian
+        ↓
+ранні реальні свідчення (окремо для кожної мови)
+        ↓
+незалежне вилучення форм
+        ↓
+alignment (similarities AND differences)
+        ↓
 гіпотези
 ```
 
-Це окремий експеримент, незалежний від `pravda`, `shiva-sutras` чи
-`my-lisp-panini`. Документи повинні мати можливість сказати:
-**«ні, ваша красива гіпотеза не працює».**
+Документи мають право сказати: **«ні, ваша красива гіпотеза не працює».**
+
+Окремий експеримент від `pravda`, `shiva-sutras`, `my-lisp-panini`.
+
+---
 
 ## Головне правило
 
-> **Жодна подібність не записується як історичний зв'язок, доки
-> незалежні свідчення цього не дозволяють.**
+> Жодна подібність не записується як історичний зв'язок, доки незалежні свідчення цього не дозволяють.
 
 ```text
 SAME FORM       ≠ SAME MEANING
@@ -45,41 +33,52 @@ SIMILAR GRAMMAR ≠ DIRECT RELATION
 ETYMOLOGY       ≠ HISTORICAL USAGE
 ```
 
+Дисципліна полів і дат: **[method/evidence.md](method/evidence.md)**  
+(особливо: `TEXTUAL COMPOSITION ≠ SURVIVING WITNESS ≠ DATE OF MANUSCRIPT`)
+
+---
+
+## Статус (не «порожньо»)
+
+| Мова | Корпус у репо |
+|------|----------------|
+| **sl** | [Freising Manuscripts](corpus/sl/freising-manuscripts-bs-critical.md) (~1000) |
+| **lt** | [Vilnius prayers ~1520](corpus/lt/vilnius-prayers-dzP-ca1520.md), [Mažvydas 1547](corpus/lt/mazvydas-catechismus-1547.md) |
+| **uk** | [Пересопницьке Євангеліє 1556–61](corpus/uk/peresopnytsia-gospel-1556.md) |
+| **be** | [Скорина, Псалтир 1517](corpus/be/skaryna-psalter-1517.md) |
+| **sa** | [Ṛgveda UNESCO note](corpus/sa/rigveda-unesco.md), [Bakhshālī](corpus/sa/bakhshali-ora.md) |
+
+Перше порівняння: [alignments/001-freising-lithuanian-prayers.yaml](alignments/001-freising-lithuanian-prayers.yaml)
+
+`observations/` і `hypotheses/` — ще майже порожні (наступний крок після ширшого extraction).
+
+---
+
 ## Структура
 
 ```text
 panca-vac/
-├── README.md
-├── method/
-│   └── evidence.md      # дисципліна свідчень
-├── corpus/
-│   ├── sa/              # Sanskrit
-│   ├── lt/              # Lithuanian
-│   ├── sl/              # Slovenian
-│   ├── uk/              # Ukrainian
-│   └── be/              # Belarusian
-├── observations/        # незалежне вилучення форм
-├── alignments/          # порівняння після extraction
-└── hypotheses/          # гіпотези (тільки після alignment)
+├── method/evidence.md     # дисципліна свідчень
+├── corpus/{sa,lt,sl,uk,be}/
+├── observations/          # незалежне вилучення форм
+├── alignments/            # порівняння після extraction
+└── hypotheses/            # тільки після alignment
 ```
 
-Кожен з п'яти каталогів `corpus/` живе незалежно — «ніхто не знає
-результату іншого». Це майже сліпий експеримент для мов.
+Кожен `corpus/*` описується **незалежно** — «ніхто не знає результату іншого».
 
-## Метод
+---
 
-1. Спочатку кожний корпус описуємо абсолютно незалежно
-   (див. `method/evidence.md`).
-2. Тільки після вилучення форм — alignment, similarities **та** differences.
-3. Гіпотези формулюються лише на основі alignment.
+## Метод (коротко)
 
-Споживачі результатів (не господарі дослідження): `pravda` (правова
-історія), Panini/Shiva (лінгвістика).
+1. Кожний корпус — окремо, за полями з `method/evidence.md`
+2. Потім alignment: similarities **і** differences
+3. Гіпотези — лише з alignment, не з етимологічного бажання
 
-## Статус
+Споживачі результатів (не господарі): `pravda`, Panini/Shiva-лінія.
 
-Репозиторій створено. Корпуси ще порожні — початкова точка.
+---
 
 ## Ліцензія
 
-Цей твір поширюється під [ВОЛЬНІСТЮ](LICENSE) — простим словом про свободу творити, пам'ятаючи про волю іншого.
+[ВОЛЬНІСТЬ](LICENSE)
