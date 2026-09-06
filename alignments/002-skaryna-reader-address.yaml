@@ -1,0 +1,109 @@
+# be Skaryna Psalter preface — reader address
+# Schema version: 0.1
+
+probe-schema: 0.1
+probe_id: 2
+title: >
+  Didactic 2SG imperative as a reader-address marker in Skaryna's
+  1517 Psalter preface
+
+question: >
+  Is direct 2SG reader address visibly attested in the live preface
+  transcript, and what remains untestable before the Psalter body is
+  transcribed?
+
+## ————— SELECTION —————
+selection:
+  semantic_basis: >
+    The preface explicitly addresses a reader who wants to learn;
+    imperative forms are inspected as reader-address markers.
+  why_this_witness: >
+    It is the only in-repo live verbal layer for be. The Psalter body
+    is available as facsimile but its machine OCR is not lab-grade.
+  preselected_before_form_search: true
+  selection_locked_at: >
+    COMMIT ec2f56d: be was selected as the next bridge witness; the
+    live preface was kept separate from the Psalter prayer/body genre.
+
+## ————— WITNESS —————
+witness:
+  language: be
+  source_id: Francysk Skaryna, Psalter, Prague 1517, preface
+  witness_status: FACSIMILE + PARTIAL-LIVE-TEXT
+  file: corpus/be/skaryna-psalter-1517.md
+  transcript_layer: biblia.by transcript, preface only
+  source_date: 6 August 1517
+  place: Prague
+
+## ————— EVIDENCE —————
+evidence:
+  - exact_form: "чти ее"
+    gloss: read.IMP the Psalter
+    context: direct didactic address to the reader
+    grammatical_form: imperative 2SG
+  - exact_form: "чти книгу светого Іова"
+    gloss: read.IMP the book of Job
+    context: direct didactic address to the reader
+    grammatical_form: imperative 2SG
+  - exact_form: "чти книги Саломоновы"
+    gloss: read.IMP Solomon's books
+    context: direct didactic address to the reader
+    grammatical_form: imperative 2SG
+  - exact_form: "часто чти"
+    gloss: read.IMP often
+    context: direct didactic address to the reader
+    grammatical_form: imperative 2SG
+
+## ————— COMPARISON —————
+comparison:
+  attested_pattern: >
+    The live preface repeatedly uses a 2SG imperative for direct reader
+    address. The addressee is the reader, not God and not a plural
+    congregation.
+  relation_to_probe_001: >
+    This is not a third equal cell for the penitential-prayer probe.
+    It is a different genre slot: didactic reader address.
+  inheritance_claim: NONE
+  transmission_claim: NONE
+
+## ————— REMAINDER —————
+remainder:
+  status: explicit
+  items:
+    - >
+      The short preface cannot establish the full Belarusian number grid,
+      including 2PL or dual.
+    - >
+      The live transcript does not establish whether the forms reflect
+      local usage, editorial normalization, or a wider Church Slavonic
+      and Ruthenian contact layer.
+    - >
+      The Psalter body cannot yet be used for a prayer-address alignment;
+      the available machine OCR is not exact-form evidence.
+    - >
+      No historical transmission path from Sanskrit, Lithuanian,
+      Slovenian, or Ukrainian is claimed by this probe.
+  not_testable: >
+    Whether the same imperative pattern appears in the Psalter body or
+    in a comparable penitential-prayer context.
+
+## ————— META —————
+meta:
+  did_fields_help: true
+  fields_used: [witness, exact_form, grammatical_form, context, remainder]
+  fields_missed: >
+    A body-text comparison field was intentionally not used because the
+    Psalter body is not yet promoted to LIVE-TEXT.
+
+## ————— STATUS —————
+result:
+  status: partial
+  summary: >
+    Probe 002 establishes a repeated 2SG imperative reader-address
+    pattern in the live Skaryna preface. It opens the Belarusian witness
+    as a controlled partial layer, but does not promote the Psalter body
+    to LIVE-TEXT and does not support a cross-language inheritance claim.
+  next_step: >
+    Obtain a human-corrected or visually checked body-text slice before
+    designing a prayer or morphology probe that treats be as a peer of
+    sl and lt.

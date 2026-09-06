@@ -34,10 +34,12 @@ be ── East-Slavic differentiation ──→ uk
 | **sl** Freising | LIVE-TEXT |
 | **lt** Vilnius / Mažvydas | PARTIAL-LIVE-TEXT |
 | **uk** Пересопниця | **PARTIAL-LIVE-TEXT** (Chepiha 2001 / IA sample) |
-| **be** Skaryna | PARTIAL (preface); body OCR not lab-grade |
+| **be** [Skaryna](alignments/002-skaryna-reader-address.yaml) | FACSIMILE + PARTIAL-LIVE-TEXT (preface); body OCR not lab-grade |
 | **sa** | date layers |
 
 **Probe 001:** [partial](alignments/001-freising-lithuanian-prayers.yaml) · [STATUS](alignments/001-STATUS.md)
+
+**Probe 002:** [Skaryna reader address](alignments/002-skaryna-reader-address.yaml)
 
 **Hypotheses:** порожньо.
 
