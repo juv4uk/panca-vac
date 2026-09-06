@@ -17,7 +17,7 @@ TEXTUAL COMPOSITION ≠ SURVIVING WITNESS ≠ DATE OF MANUSCRIPT
 |------|--------|
 | **sl** Freising | LIVE-TEXT |
 | **lt** Vilnius / Mažvydas | PARTIAL-LIVE-TEXT |
-| **be** Skaryna | PARTIAL (preface) |
+| **be** Skaryna | PARTIAL (preface); body OCR not lab-grade |
 | **uk** Пересопниця | METADATA-ONLY |
 | **sa** | date layers |
 
@@ -26,10 +26,11 @@ TEXTUAL COMPOSITION ≠ SURVIVING WITNESS ≠ DATE OF MANUSCRIPT
 | ID | Результат |
 |----|-----------|
 | [sl-001](observations/sl-001-freising-imperative-number.md) | 2SG+2PL |
-| [lt-001](observations/lt-001-vilnius-imperative-number.md) | 2SG only in prayers |
-| [lt-002](observations/lt-002-mazvydas-imperative-number.md) | 2PL productive in preface |
-| [lt-003](observations/lt-003-mazvydas-pater-vs-vilnius.md) | same-genre Pater 2SG parallel |
-| [be-001](observations/be-001-skaryna-preface-address.md) | genre mismatch |
+| [lt-001](observations/lt-001-vilnius-imperative-number.md) | 2SG in prayers |
+| [lt-002](observations/lt-002-mazvydas-imperative-number.md) | 2PL in preface |
+| [lt-003](observations/lt-003-mazvydas-pater-vs-vilnius.md) | Pater parallel |
+| [be-001](observations/be-001-skaryna-preface-address.md) | didactic 2SG |
+| [be-002](observations/be-002-skaryna-ocr-gate.md) | **OCR noise gate** |
 | [uk-001](observations/uk-001-peresopnytsia-access.md) | access gate |
 | [sa-001](observations/sa-001-date-layers.md) | date discipline |
 
