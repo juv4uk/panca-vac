@@ -56,14 +56,15 @@ ETYMOLOGY       ≠ HISTORICAL USAGE
 |----|------|
 | [sl-001](observations/sl-001-freising-imperative-number.md) | Imperative 2SG/2PL; dual unattested in slice |
 | [lt-001](observations/lt-001-vilnius-imperative-number.md) | 2SG-only (genre); dual unattested; contact loans |
+| [be-001](observations/be-001-skaryna-preface-address.md) | Preface 2SG didactic; **not** same genre slot as probe 001 |
 
 ### Alignments
 
-- [001-freising-lithuanian-prayers.yaml](alignments/001-freising-lithuanian-prayers.yaml) — status: **partial** (no inheritance claim)
+- [001-freising-lithuanian-prayers.yaml](alignments/001-freising-lithuanian-prayers.yaml) — status: **partial** (no inheritance claim; be not forced in as equal third cell)
 
 ### Hypotheses
 
-Порожньо — навмисно, доки extraction тонкий.
+Порожньо — навмисно.
 
 ---
 
