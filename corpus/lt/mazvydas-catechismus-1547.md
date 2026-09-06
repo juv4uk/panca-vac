@@ -1,71 +1,49 @@
 # Martynas Mažvydas, Catechismus — Karaliaučius 1547
 
 ```text
-WITNESS:     Catechismvsa prasty szadei, makslas skaitima raschta yr
-             giesmes del kriksczianistes bei del berneliu iaunu nauiey
-             sugulditas. [Martynas Mažvydas], Karaliaučius
-DATE:        8 January 1547 (print; first printed Lithuanian book)
+WITNESS:     Catechismvsa prasty szadei … [Martynas Mažvydas], Karaliaučius
+DATE:        8 January 1547 (print)
 PLACE:       Karaliaučius (Königsberg)
-LANGUAGE:    old Lithuanian (senoji lietuvių)
-SCRIPT:      Latin type (16th-c. orthography)
-EDITION:     print 1547 (Hans Weinreich); digital text layer used below:
-             lt.wikisource.org „Martyno Mažvydo katekizmas“ (public domain)
-SIGNATURE:   surviving copies: Vilnius UL; Toruń UMK
+LANGUAGE:    old Lithuanian
+SCRIPT:      Latin type
+EDITION:     1547 print; text layer: lt.wikisource „Martyno Mažvydo katekizmas“
 URL:         https://lt.wikisource.org/wiki/Martyno_Mažvydo_katekizmas
-             https://kolekcijos.biblioteka.vu.lt/pasakojimai/mazvydo-katekizmas
-STATUS:      [PARTIAL-LIVE-TEXT]
-             Body below = Wikisource transcription (normalized page breaks),
-             NOT diplomatic OCR of the 1547 type page. For EXACT_FORM at
-             type-level, verify against facsimile.
+STATUS:      [PARTIAL-LIVE-TEXT] Wikisource transcription, not diplomatic facsimile
 ```
 
-## Live slice A — verse preface (address to readers)
+## Live slice A — verse preface (2PL → readers)
 
 ```text
-KNIGIELES
-Pacʒias byla Letuuinikump jr Sʒemaicʒiump.
-
 Bralei ſeſeris imkiet mani ir ſkaitikiet/
 Ir tatai ſkaitidami permanikiet.
 ...
-Ueiʒdekiet ir dabakieteſe ſʒmanes wyſas
-...
 Malanei ir ſu dʒiaukſmu ta̗ ſʒadi prigimkiet
 A iuſu hukiuſu ſcheimina makikiet.
-...
-Neuſʒtrukiet bralei ſeſeriſ mane̗s ſkaitity
 ...
 Tadrin ius ſʒmaneſʒ manesp priſiartynkiet
 Ir pagal to ſchwenta makſla giwenkiet.
 ...
 Skaitikiet ir dokiet ig ra̗kas kiewaika
-Kaip ſʒemaicʒia taipir letuwynika.
-...
-To del kunigai ant aweliu ſuſimilkieteſe
 ...
 Delto ra̗kaſn ſchita̗ makſla trumpa imkiet
 Ir aweles iuſu tu maʒ́u dewa maxlu penekiet
 ```
 
-## Live slice B — Decalogue (2SG commands)
+## Live slice B — Decalogue (2SG)
 
 ```text
-Pyrma Dalis. Deſchimtis Diewa pryſſakimu.
-
 i.   Ne tureki kytu Diewu preg manes.
 ij.  Negimki warda pana, Diewa tawa napraſnai.
 iij. Atminki idank diena ſchwenta ſchwe̗ſtumbi.
-iiij. Cʒiaſtawaki tewa ir matina tawa iei nari
-     ilgai giwenti ant ſʒ́emes.
+iiij. Cʒiaſtawaki tewa ir matina tawa …
 v.   Ne vſʒmuſchki.
 vj.  Ne ijſʒ́aki ſwetimas materis.
 vij. Ne waky.
 viij. Ne liudiki pryſch artima tawa neteiſaus liudima.
-ix.  Ne gieiſki hukia artima tawa
-x.   Ne gieiſki materis ia, nei berua, nei mergas, ...
+ix–x. Ne gieiſki …
 ```
 
-## Live slice C — Creed (opening)
+## Live slice C — Creed (1SG)
 
 ```text
 Tikiu ygi Diewa tewa wyſagalintigi, ſutwertagi da̗gaus ir ʒ́emes
@@ -74,10 +52,28 @@ Ir ygi Ieſu Chriſtu ſunu ia wenatigi, pana muſu.
 Tikiu paſmertes amſʒima ʒ́iwata Amen.
 ```
 
+## Live slice D — Pater Noster / Malda Pana (2SG → God)
+
+Same genre cell as Vilnius prayers Pater (lt-001).
+
+```text
+III._Or.Dom.
+MAlda pȧnȧ, kure̗ patis panas Chriſtuſas palika ir makie kaipo, gy turim praſchiti.
+S. Matheiupi. vj. cap. Schita eſti.
+
+Tewe muſu kuris eſſi da̗nguſu.
+…
+IIII Dona muſu wyſſudienu dodi mumus nu.
+V Ir atleid mumus muſu kaltibes, kaip mes atleidem muſu kaltimus.
+VI Newed mus ingi pagundima.
+VII Bet gielbek mus nogi wyſa pikta.
+Amen.
+```
+
+(Wikisource line breaks; full intervening petitions present on source page.)
+
 ## Laboratory notes
 
-- Chronology: Vilnius prayers (~1520, manuscript) → Mažvydas 1547 (print).
-- Preface is **plural human address** (`Bralei seſeris`, `ius ſʒmaneſʒ`) — different from Pater-only 2SG-to-God in Vilnius prayers.
-- Decalogue is classic 2SG divine law style (`Ne tureki`, `Negimki`, …).
-- Dual: not extracted in this pass; do not claim absence without full systematic scan.
-- Contact/translation: Catechism drawn via Polish/German Lutheran models (Seklucjan et al.) — same rule: form parallel ≠ inheritance without separate argument.
+- Preface = 2PL human; Pater = 2SG divine; Decalogue = 2SG law — one print, three address grids.
+- Dual: not systematically scanned.
+- Translation channel: Polish/German Lutheran models — form ≠ automatic inheritance.
