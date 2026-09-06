@@ -34,23 +34,36 @@ ETYMOLOGY       ≠ HISTORICAL USAGE
 ```
 
 Дисципліна полів і дат: **[method/evidence.md](method/evidence.md)**  
-(особливо: `TEXTUAL COMPOSITION ≠ SURVIVING WITNESS ≠ DATE OF MANUSCRIPT`)
+Шаблон вилучення: **[observations/TEMPLATE.md](observations/TEMPLATE.md)**
 
 ---
 
-## Статус (не «порожньо»)
+## Статус
 
-| Мова | Корпус у репо |
-|------|----------------|
-| **sl** | [Freising Manuscripts](corpus/sl/freising-manuscripts-bs-critical.md) (~1000) |
+### Корпус
+
+| Мова | Файли |
+|------|--------|
+| **sl** | [Freising ~1000](corpus/sl/freising-manuscripts-bs-critical.md) |
 | **lt** | [Vilnius prayers ~1520](corpus/lt/vilnius-prayers-dzP-ca1520.md), [Mažvydas 1547](corpus/lt/mazvydas-catechismus-1547.md) |
-| **uk** | [Пересопницьке Євангеліє 1556–61](corpus/uk/peresopnytsia-gospel-1556.md) |
-| **be** | [Скорина, Псалтир 1517](corpus/be/skaryna-psalter-1517.md) |
-| **sa** | [Ṛgveda UNESCO note](corpus/sa/rigveda-unesco.md), [Bakhshālī](corpus/sa/bakhshali-ora.md) |
+| **uk** | [Пересопниця 1556–61](corpus/uk/peresopnytsia-gospel-1556.md) |
+| **be** | [Скорина 1517](corpus/be/skaryna-psalter-1517.md) |
+| **sa** | [Ṛgveda note](corpus/sa/rigveda-unesco.md), [Bakhshālī](corpus/sa/bakhshali-ora.md) |
 
-Перше порівняння: [alignments/001-freising-lithuanian-prayers.yaml](alignments/001-freising-lithuanian-prayers.yaml)
+### Observations
 
-`observations/` і `hypotheses/` — ще майже порожні (наступний крок після ширшого extraction).
+| ID | Тема |
+|----|------|
+| [sl-001](observations/sl-001-freising-imperative-number.md) | Imperative 2SG/2PL; dual unattested in slice |
+| [lt-001](observations/lt-001-vilnius-imperative-number.md) | 2SG-only (genre); dual unattested; contact loans |
+
+### Alignments
+
+- [001-freising-lithuanian-prayers.yaml](alignments/001-freising-lithuanian-prayers.yaml) — status: **partial** (no inheritance claim)
+
+### Hypotheses
+
+Порожньо — навмисно, доки extraction тонкий.
 
 ---
 
@@ -58,24 +71,24 @@ ETYMOLOGY       ≠ HISTORICAL USAGE
 
 ```text
 panca-vac/
-├── method/evidence.md     # дисципліна свідчень
+├── method/evidence.md
+├── observations/TEMPLATE.md
 ├── corpus/{sa,lt,sl,uk,be}/
-├── observations/          # незалежне вилучення форм
-├── alignments/            # порівняння після extraction
-└── hypotheses/            # тільки після alignment
+├── observations/
+├── alignments/
+└── hypotheses/
 ```
-
-Кожен `corpus/*` описується **незалежно** — «ніхто не знає результату іншого».
 
 ---
 
-## Метод (коротко)
+## Метод
 
-1. Кожний корпус — окремо, за полями з `method/evidence.md`
-2. Потім alignment: similarities **і** differences
-3. Гіпотези — лише з alignment, не з етимологічного бажання
+1. Корпус — незалежно, поля з `method/evidence.md`
+2. Observation — один свідок, одна тема
+3. Alignment — similarities **і** differences
+4. Hypotheses — тільки після alignment
 
-Споживачі результатів (не господарі): `pravda`, Panini/Shiva-лінія.
+Споживачі (не господарі): `pravda`, Panini/Shiva-лінія.
 
 ---
 
