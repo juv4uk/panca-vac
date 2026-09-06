@@ -175,11 +175,32 @@ errors_corrected:
     explicit absence statement.  This is the first test-case of
     CORE-RULE-honesty-over-beauty in the alignment workflow.
 
+## ————— REMAINDER —————
+remainder:
+  status: explicit
+  items:
+    - >
+      The lt 2PL absence cannot be separated from the prayer bundle's
+      addressee structure; it is not evidence about the full Lithuanian
+      number system.
+    - >
+      The sl 2PL form cannot reveal from the text alone whether plural
+      address also carries formal deference.
+    - >
+      Dual absence in both imperative slices is not informative about
+      the languages' broader dual systems.
+    - >
+      No transmission path or inherited relation is established by this
+      probe; the comparison remains a witnessed parallel.
+  not_testable: >
+    Whether the shared 2SG divine-address pattern reflects translation
+    convention, inherited structure, contact, or convergent prayer style.
+
 ## ————— META —————
 meta:
   did_fields_help: true
   fields_used: [witness, exact_form, grammatical_analysis, context,
-                 address, absence.type, absence.reason]
+                 address, absence.type, absence.reason, remainder]
   fields_missed: >
     normalized_form was not used (forms already from critical edition
     / standard transcription); could matter when working from
@@ -193,9 +214,11 @@ result:
     parallel in both texts.  2PL imperative is attested in sl but not
     lt — and that absence is text-contingent, not structural.  The
     probe DID identify a real structural slot (number-of-addressee in
-    imperative) and DID correctly classify an absence.  The probe
-    CANNOT support a stronger inheritance claim from these two
-    witnesses alone.
+    imperative) and DID correctly classify an absence.  The probe CANNOT
+    support a stronger inheritance claim from these two
+    witnesses alone.  The explicit remainder is part of the result, not a
+    defect to be silently resolved.
+
 
 next_probe: >
   Probe 002: not chosen yet.  The probe schema (0.1) held.  Next step
