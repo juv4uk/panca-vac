@@ -17,20 +17,19 @@ TEXTUAL COMPOSITION ≠ SURVIVING WITNESS ≠ DATE OF MANUSCRIPT
 |------|--------|
 | **sl** Freising | LIVE-TEXT |
 | **lt** Vilnius / Mažvydas | PARTIAL-LIVE-TEXT |
-| **be** Skaryna | PARTIAL (preface); body OCR not lab-grade |
+| **be** Skaryna | PARTIAL + OCR gate |
 | **uk** / **sa** | metadata / date gates |
 
-### Observations (working set)
+### Observations
 
 | ID | Результат |
 |----|-----------|
 | [sl-001](observations/sl-001-freising-imperative-number.md) | 2SG+2PL imperative |
-| [sl-002](observations/sl-002-freising-dual.md) | dual *očima* formula **yes**; verbal dual not in slice |
-| [lt-001](observations/lt-001-vilnius-imperative-number.md) | 2SG in prayers |
-| [lt-002](observations/lt-002-mazvydas-imperative-number.md) | 2PL in preface |
-| [lt-003](observations/lt-003-mazvydas-pater-vs-vilnius.md) | Pater parallel |
-| [be-001](observations/be-001-skaryna-preface-address.md) / [be-002](observations/be-002-skaryna-ocr-gate.md) | preface only / OCR gate |
-| [uk-001](observations/uk-001-peresopnytsia-access.md) / [sa-001](observations/sa-001-date-layers.md) | gates |
+| [sl-002](observations/sl-002-freising-dual.md) | dual *očima* yes; verbal dual no |
+| [lt-001](observations/lt-001-vilnius-imperative-number.md)–[lt-003](observations/lt-003-mazvydas-pater-vs-vilnius.md) | 2SG/2PL by genre |
+| [lt-004](observations/lt-004-dual-scan.md) | dual paradigm not in these LT slices |
+| [be-001](observations/be-001-skaryna-preface-address.md)–[be-002](observations/be-002-skaryna-ocr-gate.md) | preface / OCR gate |
+| [uk-001](observations/uk-001-peresopnytsia-access.md) · [sa-001](observations/sa-001-date-layers.md) | gates |
 
 ### Alignments
 
