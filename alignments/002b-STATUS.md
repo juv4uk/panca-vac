@@ -8,12 +8,12 @@
 | **be** Skaryna prefaces | 2SG *чти* | singular learner |
 | **lt** Mažvydas preface | 2PL *skaitikiet* | *bralei seſeris* |
 
+**Third language:** [gate](../observations/002b-third-language-gate.md) — not promoted this pass.
+
 ```text
 GENRE:   didactic reader address
-≠        probe 001 prayer-to-God
+≠        probe 001
 CLAIM:   NONE inheritance
 ```
 
-**Hypotheses:** empty (residual = framing).
-
-**Do not** reopen for more be/lt forms without a third pre-locked language.
+Hypotheses: empty.
