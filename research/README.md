@@ -1,12 +1,16 @@
-# Research
+# Research — колія III (полиця)
+
+Не замінює observations мосту. Не є hypotheses.
 
 | Шлях | Тема |
 |------|------|
-| **[sources/pravopys-digest-1928-1933.md](sources/pravopys-digest-1928-1933.md)** | Робочий витяг норм 1928↔1933 (двоїна, ґ, іншомовні…) |
-| [sources/](sources/) | Постанови + fetch повного OCR |
-| [dual-orthography-1928-1933.md](dual-orthography-1928-1933.md) | Окремий timeline двоїни в кодифікації |
+| [sources/](sources/) | Постанови 1928/1933 + digest + morphology |
+| [dual-orthography-1928-1933.md](dual-orthography-1928-1933.md) | Двоїна в нормі XX ст. |
+| [skaryna-sources.md](skaryna-sources.md) | Покажчик джерел Скорини |
+
+**Статус dig правопису:** заморожено (достатньо для довідки). Нові § — лише за запитом.
 
 ```text
 MANUSCRIPT ≠ LITERARY NORM ≠ SPOKEN
-OCR ≠ DIPLOMATIC ≠ FACSIMILE
+TRACK III ≠ TRACK I equal cells
 ```
