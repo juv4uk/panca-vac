@@ -2,35 +2,32 @@
 
 **Probe:** Imperative 2nd person as address marker (2SG vs 2PL).  
 **File:** [001-freising-lithuanian-prayers.yaml](001-freising-lithuanian-prayers.yaml)  
-**Status:** **partial** — equal cells still **sl + lt (Vilnius)** only.
+**Status:** **partial** — equal cells still **sl + lt (Vilnius)** only.  
+**Equal-cell extraction:** **closed** (do not reopen without same genre + LIVE-TEXT).
 
-## Equal cells (probe 001 genre: penitential / prayer address)
+## Equal cells (genre: penitential / prayer address)
 
 | Lang | Observation | Role |
 |------|-------------|------|
 | **sl** | [sl-001](../observations/sl-001-freising-imperative-number.md) | 2SG + 2PL in same corpus |
 | **lt** | [lt-001](../observations/lt-001-vilnius-imperative-number.md) | 2SG only in prayer bundle |
 
-## Related observations (not equal cells of 001)
+## Related (not equal cells of 001)
 
-| ID | Why related | Why not equal cell |
-|----|-------------|---------------------|
-| [lt-002](../observations/lt-002-mazvydas-imperative-number.md) | Shows LT 2PL when genre has plural humans | Different genre (preface), not penitential prayer |
-| [lt-003](../observations/lt-003-mazvydas-pater-vs-vilnius.md) | Confirms Pater stays 2SG across two LT witnesses | Reinforces lt-001; no 2PL in Pater |
-| [lt-004](../observations/lt-004-dual-scan.md) / [sl-002](../observations/sl-002-freising-dual.md) | Dual side-question from evidence.md | Dual ≠ imperative address grid of 001 |
-| [be-001](../observations/be-001-skaryna-preface-address.md)–[be-002](../observations/be-002-skaryna-ocr-gate.md) | Chronology + future body text | Genre / OCR barrier |
-| [uk-001](../observations/uk-001-peresopnytsia-access.md) / [sa-001](../observations/sa-001-date-layers.md) | Pipeline discipline | No forms |
+| ID | Note |
+|----|------|
+| lt-002…lt-004, sl-002 | genre / dual side |
+| uk-002 | Pater 2SG — supporting only |
+| be-001…be-004 | preface / OCR gate — wrong genre or no body |
+| sa-001…sa-003 | clocks / pointer / OCR gate — wrong genre |
+| research/sources (XX ст.) | literary norm, not manuscript equal cell |
 
-## Standing result of 001
+## Standing result
 
-- 2SG divine-address imperative is robust in both equal cells.
-- 2PL imperative is attested in SL Freising; absent in LT Vilnius prayers for **text-contingent** reasons (lt-002 later shows LT can do 2PL elsewhere).
-- Dual was never required for 001; side passes refined dual without changing 001’s imperative conclusion.
-- **No inheritance claim. No hypotheses/ file.**
+- 2SG divine-address imperative robust in both equal cells.
+- 2PL in SL Freising; absent in LT Vilnius prayers for **text-contingent** reasons.
+- **No inheritance claim. Hypotheses empty.**
 
 ## Re-open equal cell
 
-Only with new LIVE-TEXT in the **same address genre** (or a new probe locked before form search).
-
-Extraction phase for *this* probe’s equal cells: **closed**.  
-Side observations may continue without reopening 001.
+Only with new LIVE-TEXT in the **same address genre**, or a **new probe** locked before form search.
