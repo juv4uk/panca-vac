@@ -15,7 +15,7 @@ TEXTUAL COMPOSITION ≠ SURVIVING WITNESS ≠ DATE OF MANUSCRIPT
 
 Це не лінія прямого походження, а маршрут зіставлення: **санскрит → литовська → словенська → білоруська → українська**. Три проміжні свідки утворюють міст між порівняльною глибиною санскриту та українським полюсом. Кожна стрілка потребує власного свідчення; невідоме не замінюється домислом.
 
-Повна схема ролей і меж інтерпретації: [method/bridge.md](method/bridge.md).
+Повна схема: [method/bridge.md](method/bridge.md).
 
 ```text
 sa ── comparative depth ──→ lt ── Baltic control ──→ sl
@@ -31,19 +31,17 @@ be ── East-Slavic differentiation ──→ uk
 
 | Мова | Текст |
 |------|--------|
-| **sl** Freising | LIVE-TEXT |
+| **sl** Freising | LIVE critical + [diplomatic sample](corpus/sl/freising-diplomatic-sample.md) (e-BS) |
 | **lt** Vilnius / Mažvydas | PARTIAL-LIVE-TEXT |
-| **uk** Пересопниця | **PARTIAL-LIVE-TEXT** (Chepiha 2001 / IA sample) |
-| **be** [Skaryna](alignments/002-skaryna-reader-address.yaml) | FACSIMILE + PARTIAL-LIVE-TEXT (preface); body OCR not lab-grade |
-| **sa** | date layers |
+| **uk** Пересопниця | PARTIAL (Chepiha 2001 / IA) |
+| **be** Skaryna | PARTIAL preface (biblia.by + Vladimirov); body OCR gate |
+| **sa** | date layers + [Bakhshālī IA pointer](observations/sa-002-bakhshali-pointer.md) |
 
 **Probe 001:** [partial](alignments/001-freising-lithuanian-prayers.yaml) · [STATUS](alignments/001-STATUS.md)
 
 **Probe 002:** [Skaryna reader address](alignments/002-skaryna-reader-address.yaml)
 
 **Hypotheses:** порожньо.
-
-**Remainder:** не все, що проходить через міст, повинно бути пояснене. Неперекладене й непідтверджене зберігається як частина результату.
 
 ---
 
