@@ -12,10 +12,24 @@ MANUSCRIPT ATTESTATION ≠ LITERARY NORM ≠ SPOKEN SURVIVAL
 
 ---
 
+## Три колії (не змішувати)
+
+| Колія | Що | Де |
+|-------|-----|-----|
+| **I. Міст (ядро)** | sa · lt · sl · be · uk — форми з жанром і датою | `corpus/` `observations/` `alignments/` |
+| **II. East-Slavic** | звернення / префація (Skaryna…), не Pater | Probe [002](alignments/002-skaryna-reader-address.yaml) |
+| **III. Норма XX ст.** | скрипниківка ↔ 1933 — **полиця**, не міст | [research/sources/](research/sources/) |
+
+Цикл: **один** вузький крок → коміт. Equal cell або чесний gate.  
+Hypotheses — лише після ≥2 незалежних equal cells під pre-locked probe.
+
+**Колія III:** dig заморожено (digest + morphology достатні). Нові § правопису — лише за окремим запитом.
+
+---
+
 ## Міст п'яти голосів
 
-Це не лінія прямого походження, а маршрут зіставлення: **санскрит → литовська → словенська → білоруська → українська**. Кожна стрілка потребує власного свідчення.
-
+Маршрут зіставлення, не пряме походження: **sa → lt → sl → be → uk**.  
 [method/bridge.md](method/bridge.md)
 
 ```text
@@ -28,19 +42,19 @@ sa ── comparative depth ──→ lt ── Baltic control ──→ sl
 be ── East-Slavic differentiation ──→ uk
 ```
 
-## Статус
+## Статус корпусу
 
 | Мова | Текст |
 |------|--------|
-| **sl** Freising | LIVE critical + [diplomatic sample](corpus/sl/freising-diplomatic-sample.md) |
+| **sl** Freising | LIVE critical + diplomatic sample |
 | **lt** Vilnius / Mažvydas | PARTIAL-LIVE-TEXT |
 | **uk** Пересопниця | PARTIAL (Chepiha / IA) |
-| **be** Skaryna | PARTIAL preface; body OCR gate |
-| **sa** | date layers + Bakhshālī pointer |
+| **be** Skaryna | PARTIAL preface; **body gate** (be-004) |
+| **sa** | clocks + pointer; **OCR gate** (sa-003) |
 
-**Probe 001:** [partial](alignments/001-freising-lithuanian-prayers.yaml) · [STATUS](alignments/001-STATUS.md)  
+**Probe 001:** [partial](alignments/001-freising-lithuanian-prayers.yaml) · equal cells **sl+lt** · [STATUS](alignments/001-STATUS.md) — extraction equal cells **closed**  
 **Probe 002:** [Skaryna reader address](alignments/002-skaryna-reader-address.yaml)  
-**Research (dual):** [скрипниківка 1928 ↔ правопис 1933](research/dual-orthography-1928-1933.md)
+**Research III:** [digest 1928↔1933](research/sources/pravopys-digest-1928-1933.md)
 
 **Hypotheses:** порожньо.
 
