@@ -17,13 +17,13 @@ MANUSCRIPT ATTESTATION ≠ LITERARY NORM ≠ SPOKEN SURVIVAL
 | Колія | Що | Де |
 |-------|-----|-----|
 | **I. Міст (ядро)** | sa · lt · sl · be · uk — форми з жанром і датою | `corpus/` `observations/` `alignments/` |
-| **II. East-Slavic** | звернення / префація (Skaryna…), не Pater | Probe [002](alignments/002-skaryna-reader-address.yaml) |
+| **II. East-Slavic** | звернення / префація (Skaryna…), не Pater | Probe [002](alignments/002-skaryna-reader-address.yaml) · [STATUS](alignments/002-STATUS.md) |
 | **III. Норма XX ст.** | скрипниківка ↔ 1933 — **полиця**, не міст | [research/sources/](research/sources/) |
 
 Цикл: **один** вузький крок → коміт. Equal cell або чесний gate.  
 Hypotheses — лише після ≥2 незалежних equal cells під pre-locked probe.
 
-**Колія III:** dig заморожено (digest + morphology достатні). Нові § правопису — лише за окремим запитом.
+**Колія III:** dig заморожено. Нові § правопису — лише за запитом.
 
 ---
 
@@ -52,9 +52,9 @@ be ── East-Slavic differentiation ──→ uk
 | **be** Skaryna | PARTIAL preface; **body gate** (be-004) |
 | **sa** | clocks + pointer; **OCR gate** (sa-003) |
 
-**Probe 001:** [partial](alignments/001-freising-lithuanian-prayers.yaml) · equal cells **sl+lt** · [STATUS](alignments/001-STATUS.md) — extraction equal cells **closed**  
-**Probe 002:** [Skaryna reader address](alignments/002-skaryna-reader-address.yaml)  
-**Research III:** [digest 1928↔1933](research/sources/pravopys-digest-1928-1933.md)
+**Probe 001:** equal cells **sl+lt** · [STATUS](alignments/001-STATUS.md) — **closed**  
+**Probe 002:** 2SG reader address · [yaml](alignments/002-skaryna-reader-address.yaml) · [STATUS](alignments/002-STATUS.md) — **partial, pattern established**  
+**Research III:** [digest](research/sources/pravopys-digest-1928-1933.md)
 
 **Hypotheses:** порожньо.
 
