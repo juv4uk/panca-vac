@@ -16,47 +16,49 @@ MANUSCRIPT ATTESTATION ≠ LITERARY NORM ≠ SPOKEN SURVIVAL
 
 | Колія | Що | Де |
 |-------|-----|-----|
-| **I. Міст (ядро)** | sa · lt · sl · be · uk — форми з жанром і датою | `corpus/` `observations/` `alignments/` |
-| **II. East-Slavic** | звернення / префація (Skaryna…), не Pater | Probe [002](alignments/002-skaryna-reader-address.yaml) · [STATUS](alignments/002-STATUS.md) |
-| **III. Норма XX ст.** | скрипниківка ↔ 1933 — **полиця**, не міст | [research/sources/](research/sources/) |
+| **I. Міст (ядро)** | sa · lt · sl · be · uk | `corpus/` `observations/` `alignments/` |
+| **II. Reader address** | префація → читач (не Pater) | [002](alignments/002-skaryna-reader-address.yaml) · **[002b](alignments/002b-reader-address-number.yaml)** |
+| **III. Норма XX ст.** | 1928↔1933 — **полиця** | [research/sources/](research/sources/) |
 
-Цикл: **один** вузький крок → коміт. Equal cell або чесний gate.  
-Hypotheses — лише після ≥2 незалежних equal cells під pre-locked probe.
+Цикл: один вузький крок → коміт. Equal cell або gate.  
+Hypotheses — лише після ≥2 equal cells під **pre-locked** probe.
 
-**Колія III:** dig заморожено. Нові § правопису — лише за запитом.
+**Колія III:** dig заморожено.
 
 ---
 
-## Міст п'яти голосів
-
-Маршрут зіставлення, не пряме походження: **sa → lt → sl → be → uk**.  
-[method/bridge.md](method/bridge.md)
+## Міст
 
 ```text
-sa ── comparative depth ──→ lt ── Baltic control ──→ sl
-                                      │
-                                      ▼
-                              early Slavic layer
-                                      │
-                                      ▼
-be ── East-Slavic differentiation ──→ uk
+sa ──→ lt ──→ sl
+              │
+              ▼
+         early Slavic
+              │
+be ──→ uk
 ```
+
+[method/bridge.md](method/bridge.md)
 
 ## Статус корпусу
 
 | Мова | Текст |
 |------|--------|
-| **sl** Freising | LIVE critical + diplomatic sample |
-| **lt** Vilnius / Mažvydas | PARTIAL-LIVE-TEXT |
-| **uk** Пересопниця | PARTIAL (Chepiha / IA) |
-| **be** Skaryna | PARTIAL preface; **body gate** (be-004) |
-| **sa** | clocks + pointer; **OCR gate** (sa-003) |
+| **sl** Freising | LIVE |
+| **lt** Vilnius / Mažvydas | PARTIAL-LIVE |
+| **uk** Пересопниця | PARTIAL |
+| **be** Skaryna | preface LIVE; body **Ps 1 sample** (be-008); OCR gated |
+| **sa** | clocks + Hoernle pointer; OCR gated |
 
-**Probe 001:** equal cells **sl+lt** · [STATUS](alignments/001-STATUS.md) — **closed**  
-**Probe 002:** 2SG reader address · [yaml](alignments/002-skaryna-reader-address.yaml) · [STATUS](alignments/002-STATUS.md) — **partial, pattern established**  
-**Research III:** [digest](research/sources/pravopys-digest-1928-1933.md)
+## Probes
 
-**Hypotheses:** порожньо.
+| Probe | Status |
+|-------|--------|
+| **001** prayer IMP number | equal **sl+lt** · [STATUS](alignments/001-STATUS.md) · **closed** |
+| **002** be reader *чти* | pattern established · [STATUS](alignments/002-STATUS.md) |
+| **002b** reader IMP number | equal **be 2SG + lt 2PL** · [STATUS](alignments/002b-STATUS.md) · **established** |
+
+**Hypotheses:** порожньо (residual 002b = framing, not inheritance).
 
 ---
 
