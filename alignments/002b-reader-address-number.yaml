@@ -1,0 +1,99 @@
+# Probe 002b — reader-address imperative NUMBER
+# Schema version: 0.1
+# Pre-locked BEFORE further form hunting (method/evidence.md)
+
+probe-schema: 0.1
+probe_id: "2b"
+title: >
+  Imperative number (2SG vs 2PL) in didactic address to the reader
+  (16th-c. East Baltic / East Slavic print prefaces)
+
+question: >
+  When the genre is didactic reader address (not penitential prayer),
+  what imperative NUMBER is attested in the locked witnesses, and is
+  the difference structural or text-contingent (addressee framing)?
+
+## ————— SELECTION (locked) —————
+selection:
+  semantic_basis: >
+    Direct imperative urging the reader(s) to take up / read the book.
+  genre_lock: >
+    Didactic preface or book-to-reader poem. NOT Pater/Ave, NOT psalm body,
+    NOT probe 001 penitential slot.
+  preselected_before_form_search: true
+  selection_locked_at: >
+    2026-09-07 — after be-001…006 (2SG чти) and lt-002/005 (2PL skaitikiet);
+    forms already observed but probe identity locked only now for equal cells.
+  witnesses_locked:
+    - language: be
+      source: Skaryna prefaces (Psalter 1517, Bible, Job) — observations be-001, be-003, be-005, be-006
+    - language: lt
+      source: Mažvydas Catechismus 1547 Lithuanian preface — lt-002, lt-005
+  not_in_scope:
+    - probe 001 equal cells (sl Freising / lt Vilnius prayers)
+    - Skaryna psalm body (be-008 sample is different genre)
+    - Fedorov 1564 afterword (weaker didactic IMP grid)
+    - Sanskrit / inheritance claims
+
+## ————— EQUAL CELLS —————
+equal_cells:
+  - language: be
+    observation_ids: [be-001, be-003, be-005, be-006]
+    pattern: >
+      Repeated 2SG imperative чти (+ often хощеши ли singular framing).
+    exact_form_samples:
+      - "чти ее"
+      - "часто чти"
+      - "чти часто сию книгу"
+    grammatical_form: imperative 2SG
+    addressee_framing: singular learner / reader
+
+  - language: lt
+    observation_ids: [lt-002, lt-005]
+    pattern: >
+      Productive 2PL imperative in book-to-people preface.
+    exact_form_samples:
+      - "imkiet"
+      - "skaitikiet"
+      - "permanikiet"
+    grammatical_form: imperative 2PL
+    addressee_framing: plural Bralei seſeris (brothers, sisters)
+
+## ————— COMPARISON —————
+comparison:
+  attested_pattern: >
+    Same genre slot hosts 2SG (be) and 2PL (lt). Number tracks addressee
+    framing (one pupil vs community), not a claim that one language lacks
+    the other number (lt-002 already shows LT 2SG in Decalogue; be 2PL
+    not required for this probe).
+  relation_to_probe_001: >
+    Orthogonal. 001 = prayer address to God; 002b = reader address.
+  relation_to_probe_002: >
+    002 established be-only 2SG pattern; 002b adds lt as second equal cell
+    under the same genre lock.
+  inheritance_claim: NONE
+  transmission_claim: NONE
+  residual: >
+    Framing (singular vs plural audience), contact models (catechism vs
+    Ruthenian printer preface), orthography layers — not inheritance.
+
+## ————— REMAINDER —————
+remainder:
+  status: explicit
+  items:
+    - be 2PL in same preface genre not required for 002b result
+    - lt 2SG Decalogue is different subgenre (law), already in lt-002
+    - body psalms / facsimile further pages not in this probe
+  not_testable: >
+    Whether Skaryna body uses 2PL divine or communal address without a
+    new pre-locked prayer probe and more facsimile reading.
+
+## ————— STATUS —————
+result:
+  status: established
+  summary: >
+    Two equal cells in didactic reader-address genre: be 2SG vs lt 2PL.
+    Difference is text-contingent framing. No inheritance hypothesis filed.
+  next_step: >
+    Stop expanding 002b forms unless a third language is pre-locked in the
+    same genre. Optional: new probe for penitential body text from facsimile.
