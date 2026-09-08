@@ -33,6 +33,27 @@ STATUS:      [PARTIAL-LIVE-TEXT]
 
 See [observations/uk-002-peresopnytsia-pater-number.md](../../observations/uk-002-peresopnytsia-pater-number.md).
 
+## Live sample — postface "Сказаніє со главахь и зачалєхь..." (edition OCR, p. 363, л. 442 зв.–444)
+
+```text
+Ѡци, и братїа, сщн'ници, и дїакони, и вс'Ь причєтници црковнїи.
+Видьте, а виймайте соб'Ь. Аби есте на(м) пишоучи(м), сїє єу(г)лїє
+пре нєдозорь свои, не зле рєчили.
+
+...Здє пакь братїа. и Ѡці. сщєн'ници, и дїакони. Прочитаючи тоє
+писанїє розоумійтє...
+
+Прошоу тебе, видь. аби єси не зоупиниль себе, на прєписко(х),
+зри дробнаго писанїа...
+
+Розоуміи же и Ѡ то(м) брате, ижє тии писмєна дробньш...
+```
+
+2PL (`Видьте`, `виймайте`, `розоумійтє`) when the text names the full
+clergy audience; 2SG (`видь`, `розоумій`) when it narrows to "тебе...
+брате". See
+[observations/uk-004-peresopnytsia-postface-reader-address.md](../../observations/uk-004-peresopnytsia-postface-reader-address.md).
+
 ## Laboratory notes
 
 - Scribe: Михайло Василевич; archimandrite Hryhorii; patrons Holshanska / Czartoryski.
