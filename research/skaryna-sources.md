@@ -17,3 +17,28 @@ The safest first step is therefore **not** to invent an alignment form from OCR.
 - Library of Congress: https://blogs.loc.gov/international-collections/2017/09/500th-anniversary-of-belarusian-book-printing/
 - Cambridge University Library: https://languagecollections-blog.lib.cam.ac.uk/2017/09/30/frantsysk-skaryna-and-500-years-of-belarusian-printing-the-september-2017-slavonic-items-of-the-month/
 - Wikimedia Commons scan category: https://commons.wikimedia.org/wiki/Category:Psalter_by_Francysk_Skaryna_(1517)
+
+## Apostol, Vilna 1525 — candidate for probe 003, access blocked
+
+Skaryna's Апостол ("Дьяния и посълания апостольская зовемая Апостолъ",
+Vilna, March 1525) is the genre-plausible be candidate for
+[probe 003](../alignments/003-clergy-index-address-number.yaml)
+(clergy/lectionary-apparatus address) — Praxapostolos editions in this
+printing tradition conventionally carry their own Epistle-pericope index
+apparatus, the same front/back-matter convention that carries the uk-004
+witness in Peresopnytsia.
+
+Checked 2026-09-08:
+
+- `rusneb.ru` digitised copy: **HTTP 403** on direct fetch (same failure
+  class as `uk-001`'s archives.gov.ua 403 — an access barrier, not
+  evidence about the text).
+- `raruss.ru`: antiquarian-bookseller description page only, no
+  transcribed text.
+- No OCR / scholarly transliteration layer located this pass.
+
+This is an **access gate**, not a linguistic absence. Next step: locate
+a scholarly transliteration (parallel to Chepiha's 2001 Peresopnytsia
+edition) or a legible facsimile of the apparatus pages, before searching
+for exact forms. See `alignments/003-STATUS.md` for the full candidate
+record.

@@ -57,6 +57,7 @@ be ──→ uk
 | **001** prayer IMP number | equal **sl+lt** · [STATUS](alignments/001-STATUS.md) · **closed** |
 | **002** be reader *чти* | pattern established · [STATUS](alignments/002-STATUS.md) |
 | **002b** reader IMP number | equal **be 2SG + lt 2PL** · [STATUS](alignments/002b-STATUS.md) · **established** |
+| **003** clergy/index apparatus IMP number | single-witness **uk** · [STATUS](alignments/003-STATUS.md) · **not a result** — be candidate access-blocked |
 
 **Hypotheses:** порожньо (residual 002b = framing, not inheritance).
 
