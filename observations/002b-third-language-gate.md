@@ -15,27 +15,28 @@ STATUS:    NOT FOUND this pass → no third equal cell
 | **ru/be** Fedorov afterwords | historical / apology / patronage | weak pure *read.IMP* didactic series |
 | **sl** Trubar etc. | catechism/print culture | would need pre-lock + LIVE forms (*beri/berite*…) not pulled this pass |
 
-## Correction, 2026-09-08 — uk candidate re-checked against primary text
+## Виправлення, 2026-09-08 — кандидат uk перевірено за первинним текстом
 
-The line above ("«Наука читання» / prefaces exist") was written from the
-edition's table of contents / secondary description, not the primary
-transliterated text. Direct fetch of the IA OCR (`PY1561_djvu.txt`) and
-full read of "Наука читання" (edition pp. 121–132) shows it is a
-**liturgical lectionary index (synaxarion)**, not a didactic reader-
-address preface — **genre does not match 002b's lock**. This is now a
-source-confirmed negative result for that specific section, not an
-access gate.
+Рядок вище (««Наука читання» / передмови існують») був написаний зі
+змісту видання / вторинного опису, а не з первинного транслітерованого
+тексту. Пряме завантаження OCR з Internet Archive (`PY1561_djvu.txt`) і
+повне прочитання «Наука читання» (сторінки видання 121–132) показує, що
+це **літургійний покажчик читань (синаксар)**, а не дидактична
+передмова-звернення до читача — **жанр не збігається з locked-жанром
+002b**. Це тепер source-confirmed негативний результат для цього
+конкретного розділу, а не бар'єр доступу.
 
-A **different** section of the same witness — the postface/lectionary-
-apparatus "Сказаніє со главахь и зачалєхь..." (edition p. 363, leaves
-442 зв.–444) — does carry direct 2nd-person imperative reader/clergy
-address, alternating 2SG and 2PL by addressee scope within the same
-passage. See `uk-004-peresopnytsia-postface-reader-address.md` for full
-EXACT_FORM records. Its addressee (clergy: "Ѡці, братїа, сщенници,
-дїакони") and content (lectionary-index instruction, not "read this
-book") differ from 002b's locked selection (lay reader, book-purchase/
-reading exhortation, be+lt) — **not** promoted to a third 002b cell on
-this pass; would need its own pre-lock as a separate probe.
+**Інший** розділ того ж свідка — післямова/апарат покажчика читань
+«Сказаніє со главахь и зачалєхь...» (сторінка видання 363, аркуші
+442 зв.–444) — таки несе пряме звернення в наказовому способі 2-ї
+особи до читача/духовенства, з чергуванням 2ОД і 2МН залежно від рамки
+адресата в межах одного уривка. Див. `uk-004-peresopnytsia-postface-
+reader-address.md` для повних записів EXACT_FORM. Його адресат
+(духовенство: «Ѡці, братїа, сщенници, дїакони») і зміст (інструкція
+покажчика читань, а не «читай цю книгу») відрізняються від
+locked-вибірки 002b (мирський читач, заклик купити/читати книгу, be+lt)
+— **не** просунуто до третьої клітинки 002b на цьому проході; знадобився
+б власний pre-lock як окремий probe.
 
 ## Rule
 
@@ -47,5 +48,6 @@ Do NOT reopen 002b form search without pre-lock of language + witness.
 ## Standing
 
 002b remains **two** equal cells (be+lt). Residual = framing. Hypotheses
-empty. uk now has a real, source-verified reader/clergy-address witness
-(`uk-004`) but it sits outside 002b's genre lock, not inside it.
+empty. uk тепер має реальний, source-verified свідок звернення
+читач/духовенство (`uk-004`), але він поза genre lock 002b, не всередині
+нього.

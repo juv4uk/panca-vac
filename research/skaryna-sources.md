@@ -18,49 +18,52 @@ The safest first step is therefore **not** to invent an alignment form from OCR.
 - Cambridge University Library: https://languagecollections-blog.lib.cam.ac.uk/2017/09/30/frantsysk-skaryna-and-500-years-of-belarusian-printing-the-september-2017-slavonic-items-of-the-month/
 - Wikimedia Commons scan category: https://commons.wikimedia.org/wiki/Category:Psalter_by_Francysk_Skaryna_(1517)
 
-## Apostol, Vilna 1525 — candidate for probe 003, access blocked
+## Апостол, Вільна 1525 — кандидат для probe 003, доступ заблоковано
 
-Skaryna's Апостол ("Дьяния и посълания апостольская зовемая Апостолъ",
-Vilna, March 1525) is the genre-plausible be candidate for
+Апостол Скорини («Дьяния и посълания апостольская зовемая Апостолъ»,
+Вільна, березень 1525) — жанрово правдоподібний be-кандидат для
 [probe 003](../alignments/003-clergy-index-address-number.yaml)
-(clergy/lectionary-apparatus address) — Praxapostolos editions in this
-printing tradition conventionally carry their own Epistle-pericope index
-apparatus, the same front/back-matter convention that carries the uk-004
-witness in Peresopnytsia.
+(звернення духовенство/апарат покажчика читань) — видання Апостола
+(Praxapostolos) у цій друкарській традиції зазвичай несуть власний
+апарат покажчика зачал Апостола, ту саму конвенцію початкової/кінцевої
+частини, що несе свідок uk-004 у Пересопниці.
 
-Checked 2026-09-08, second pass (confirming the barrier, not just noting it):
+Перевірено 2026-09-08, другий прохід (підтвердження бар'єру, а не лише
+його фіксація):
 
-- `rusneb.ru`: direct `curl` fetch (not just the AI-fetch tool) returns
-  **HTTP 403** with a Russian-language interstitial page whose own
-  `<title>` reads "Отключите VPN — НЭБ" ("Turn off VPN — NEB") and whose
-  `<meta description>` explicitly states it is a VPN-detection stub. This
-  is a **network/geographic block**, not a bot-detection or authentication
-  wall — confirms the earlier note, now with the actual mechanism, not
-  just the status code.
-- `raruss.ru`: TLS handshake itself fails (`SSL ... TLSV1_ALERT_UNRECOGNIZED_NAME`)
-  from this environment — a second, independent access failure, different
-  mechanism than the NEB block.
-- `ru.wikisource.org`'s "Библия Франциска Скорины" page: catalog/
-  bibliography only, confirmed to hold no transcribed text of the Apostol.
-- No free-standing OCR or online transliteration layer located. Two real
-  scholarly editions exist but are not freely digitised: Hans Rothe et al.,
-  *Bibliia ruska / Apostol, Wilna 1525: Faksimile und Kommentar* (Ferdinand
-  Schöningh, 2002), and Belarus National Library's *Кніжная спадчына
-  Францыска Скарыны* (Minsk, 2016) — both physical/institutional
-  publications, not checked here.
-- Incidental finding (secondary description, `raruss.ru` search snippet,
-  **not** primary-source-confirmed): the 1525 Apostol reportedly opens
-  with a **general** preface ("Дѣяния святых апостол книг предмова")
-  addressed to a broad lay readership, plus 22 per-book prefaces and 17
-  postscripts of exegetical commentary — this profile actually looks
-  closer to probe 002/002b's already-established genre (lay reader
-  address) than to 003's clergy/lectionary-apparatus target. Whether the
-  volume *also* carries a clergy-addressed index apparatus comparable to
-  Peresopnytsia's "Сказаніе" (needed for 003) is **unconfirmed** without
-  the primary text — do not assume either way from this snippet.
+- `rusneb.ru`: прямий запит `curl` (не лише інструмент AI-фетчу)
+  повертає **HTTP 403** з російськомовною сторінкою-заглушкою, чий
+  власний `<title>` читається як «Отключите VPN — НЭБ», а
+  `<meta description>` прямо стверджує, що це заглушка виявлення VPN.
+  Це **мережевий/географічний блок**, не бот-захист і не стіна
+  авторизації — підтверджує попередню нотатку, тепер із реальним
+  механізмом, а не лише кодом статусу.
+- `raruss.ru`: сам TLS-рукостискання провалюється
+  (`SSL ... TLSV1_ALERT_UNRECOGNIZED_NAME`) з цього середовища — другий,
+  незалежний збій доступу, інший механізм, ніж блок НЕБ.
+- Сторінка «Библия Франциска Скорины» на `ru.wikisource.org`: лише
+  каталог/бібліографія, підтверджено відсутність транскрибованого
+  тексту Апостола.
+- Жодного окремого OCR чи онлайн-транслітерації не знайдено. Існують
+  два реальні наукові видання, але не оцифровані у вільному доступі:
+  Hans Rothe та ін., *Bibliia ruska / Apostol, Wilna 1525: Faksimile
+  und Kommentar* (Ferdinand Schöningh, 2002), і видання Національної
+  бібліотеки Білорусі *Кніжная спадчына Францыска Скарыны* (Мінськ,
+  2016) — обидва інституційні/паперові публікації, тут не перевірені.
+- Побічна знахідка (вторинний опис, фрагмент пошуку `raruss.ru`, **не**
+  підтверджена первинним джерелом): Апостол 1525 р., за свідченнями,
+  відкривається **загальною** передмовою («Дѣяния святых апостол книг
+  предмова»), зверненою до широкого мирського читача, плюс 22
+  передмови до окремих книг і 17 післямов екзегетичного коментаря —
+  цей профіль насправді виглядає ближчим до вже встановленого жанру
+  probe 002/002b (звернення до мирського читача), ніж до цілі 003
+  (духовенство/апарат покажчика читань). Чи несе том **також** апарат
+  звернення до духовенства, порівнянний із пересопницьким «Сказанієм»
+  (потрібний для 003), — **непідтверджено** без первинного тексту; не
+  припускати жодного варіанту з цього фрагмента.
 
-This is a **confirmed access gate** (two independent, different-mechanism
-failures), not a linguistic absence. Next step, if pursued: an
-institutional/library route to Rothe 2002 or NLB 2016, not another web
-fetch attempt against the same blocked hosts. See `alignments/003-STATUS.md`
-for the full candidate record.
+Це **підтверджений бар'єр доступу** (два незалежні збої різних
+механізмів), а не мовна відсутність. Наступний крок, якщо продовжувати:
+інституційний/бібліотечний шлях до Rothe 2002 чи НББ 2016, а не ще одна
+спроба веб-запиту проти тих самих заблокованих хостів. Див.
+`alignments/003-STATUS.md` для повного запису кандидата.

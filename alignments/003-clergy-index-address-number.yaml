@@ -1,131 +1,145 @@
-# Probe 003 — clergy/lectionary-index address NUMBER
-# Schema version: 0.1
-# Pre-locked BEFORE further witness hunting (method/evidence.md)
+# Probe 003 — звернення в апараті покажчика читань до духовенства, ЧИСЛО
+# Версія схеми: 0.1
+# Pre-locked ДО подальшого пошуку свідків (method/evidence.md)
 #
-# Status note: this probe currently has ONE locked witness (uk). It is
-# filed as a probe scaffold, not a result — per method/evidence.md and
-# the standing rule against promoting equal cells from secondary
-# description, a second witness is not assumed here; it is named as a
-# search target with its own access barrier recorded honestly.
+# Примітка про статус: у цього probe наразі ОДИН заблокований свідок
+# (uk). Подається як каркас probe, не результат — за method/evidence.md
+# і чинним правилом проти просування equal cells з вторинного опису,
+# другий свідок тут не припускається; він названий як ціль пошуку з
+# чесно зафіксованим власним бар'єром доступу.
 
 probe-schema: 0.1
 probe_id: "3"
 title: >
-  Imperative number (2SG vs 2PL) in lectionary-apparatus instruction
-  addressed to clergy (16th-c. Cyrillic liturgical Gospel/Apostol
-  front/back matter)
+  Число наказового способу (2ОД проти 2МН) в інструкції апарату
+  покажчика читань, зверненій до духовенства (кириличні богослужбові
+  Євангелія/Апостоли XVI ст., початкові/кінцеві частини)
 
 question: >
-  In the specific genre of a printed/manuscript liturgical book's own
-  lectionary-index apparatus (a "Сказаніе о главах и зачалЬх" or
-  equivalent, explaining how to use the pericope table), does imperative
-  NUMBER track addressee scope (named plural clergy vs a narrowed
-  singular "brother") the same way probe 002b found for lay reader
-  address, and is this pattern text-internal, cross-witness, or both?
+  У специфічному жанрі власного апарату покажчика читань друкованої чи
+  рукописної богослужбової книги («Сказаніе о главах и зачалЬх» чи
+  еквівалент, що пояснює користування таблицею зачал) — чи слідує число
+  наказового способу за рамкою адресата (назване множинне духовенство
+  проти звуженого однинного «брате») так само, як probe 002b виявив для
+  звернення до мирського читача, і чи цей патерн внутрішньотекстовий,
+  міжсвідковий, чи обидва?
 
-## ————— SELECTION (locked) —————
+## ————— ВІДБІР (locked) —————
 selection:
   semantic_basis: >
-    Direct imperative instructing clergy/lector how to use a Gospel or
-    Apostol book's own lectionary index (chapters/pericopes, beginnings
-    and endings, for matins/liturgy) — NOT a general "take up and read
-    this book" exhortation (that is probe 002/002b's genre).
+    Пряме звернення в наказовому способі, що інструктує духовенство/
+    читця, як користуватися власним покажчиком читань книги Євангелія
+    чи Апостола (глави/зачала, початки й кінці, для утрені/літургії) —
+    НЕ загальний заклик «візьми й читай цю книгу» (це жанр probe
+    002/002b).
   genre_lock: >
-    Lectionary-apparatus front/back matter of a liturgical Gospel or
-    Apostol edition, addressed by name to clergy (fathers, brothers,
-    priests, deacons) explaining index use and asking forgiveness for
-    scribal/editorial error. NOT a lay preface, NOT a catechism, NOT a
-    penitential prayer, NOT probe 001/002/002b's locked slots.
+    Початкова/кінцева частина апарату покажчика читань богослужбового
+    видання Євангелія чи Апостола, звернена на ім'я до духовенства
+    (отці, брати, священники, диякони), що пояснює користування
+    покажчиком і просить пробачення за писарську/редакторську помилку.
+    НЕ мирська передмова, НЕ катехизис, НЕ покаянна молитва, НЕ
+    locked-слоти probe 001/002/002b.
   preselected_before_form_search: false
   selection_locked_at: >
-    2026-09-08 — forms already observed in uk (uk-004) while checking a
-    different claim (the 002b "uk candidate" gate); probe identity
-    locked now, before any second-witness form search begins. This
-    mirrors 002b's own precedent (see that file's
-    preselected_before_form_search: false note) rather than violating
-    the pre-lock rule: the rule bars promoting a cell from what is
-    already found without locking the *next* search, not bars writing
-    up what was already found.
+    2026-09-08 — форми в uk (uk-004) уже спостережено під час перевірки
+    іншої заяви (gate «uk-кандидат» для 002b); ідентичність probe
+    заблокована зараз, до початку пошуку форм у другому свідку. Це
+    дзеркалить власний прецедент 002b (див. примітку
+    preselected_before_form_search: false того файлу), а не порушує
+    правило pre-lock: правило забороняє просувати клітинку з уже
+    знайденого без блокування *наступного* пошуку, не забороняє
+    записати те, що вже знайдено.
   witnesses_locked:
     - language: uk
       source: >
-        Пересопницьке Євангеліє 1556-1561, postface/lectionary apparatus
-        "Сказаніе со главахь и зачалЬхь..." (edition p. 363, л. 442
-        зв.-444) — observation uk-004
+        Пересопницьке Євангеліє 1556-1561, післямова/апарат покажчика
+        читань «Сказаніе со главахь и зачалЬхь...» (стор. видання 363,
+        л. 442 зв.-444) — спостереження uk-004
       status: LOCKED, source-confirmed
   not_in_scope:
-    - probe 001 equal cells (sl Freising / lt Vilnius prayers)
-    - probe 002/002b equal cells (be Skaryna preface / lt Mažvydas preface)
-    - uk-002 (Pater Noster, different genre)
-    - "Наука читання" opening section of Peresopnytsia itself (checked
-      2026-09-08, confirmed a plain lectionary TABLE with no address
-      forms — see 002b-third-language-gate.md correction; not this
-      probe's genre either, it has no apparatus-instruction prose at all)
+    - equal cells probe 001 (sl Freising / lt молитви Вільнюса)
+    - equal cells probe 002/002b (передмова be Скорини / передмова lt Мажвіда)
+    - uk-002 (Отче наш, інший жанр)
+    - відкриваючий розділ «Наука читання» самого Пересопницького
+      Євангелія (перевірено 2026-09-08, підтверджено просту
+      літургійну ТАБЛИЦЮ без форм звернення — див. виправлення в
+      002b-third-language-gate.md; також не жанр цього probe, там
+      узагалі немає прози інструкції апарату)
 
-## ————— CANDIDATE SECOND WITNESS (not yet a cell) —————
+## ————— КАНДИДАТ НА ДРУГОГО СВІДКА (ще не клітинка) —————
 candidate_be:
   source: >
-    Ф. Скорина, Апостол, Вильна, март 1525 ("Дьяния и посълания
-    апостольская зовемая Апостолъ"). Praxapostolos editions in this
-    printing tradition conventionally carry their own lectionary
-    apparatus (Epistle pericope index, "Сказание"/"Соборник"), the same
-    front/back-matter convention as a Tetraevangelion — this is a
-    genre-plausible candidate, not a confirmed one.
+    Ф. Скорина, Апостол, Вільна, березень 1525 («Дьяния и посълания
+    апостольская зовемая Апостолъ»). Видання Апостола (Praxapostolos) у
+    цій друкарській традиції зазвичай несуть власний апарат покажчика
+    читань (покажчик зачал Апостола, «Сказание»/«Соборник») — та сама
+    конвенція початкової/кінцевої частини, що й у Тетраєвангелії. Це
+    жанрово правдоподібний кандидат, не підтверджений.
   access_status: >
-    BLOCKED this pass. rusneb.ru digitised copy returned HTTP 403 on
-    direct fetch, 2026-09-08 (same failure class as uk-001's
-    archives.gov.ua 403 — an access barrier, not evidence the apparatus
-    does or does not contain address imperatives). raruss.ru has a
-    bookseller description page, not a transcribed text. No OCR/
-    transliteration layer located this pass.
+    ЗАБЛОКОВАНО, підтверджено двома незалежними механізмами 2026-09-08.
+    Прямий curl (не лише інструмент фетчу) на rusneb.ru повертає
+    сторінку-заглушку з власним заголовком «Отключите VPN — НЭБ» — це
+    підтверджений мережевий/гео-блок, не бот-захист і не авторизація.
+    raruss.ru завершується провалом на рівні TLS
+    (SSL_ALERT_UNRECOGNIZED_NAME) — другий, незалежний збій. Існують
+    два реальні наукові видання (Rothe та ін. 2002, факсиміле+коментар;
+    НББ Мінськ 2016, повне факсиміле), обидва інституційні/паперові, тут
+    не завантажені. Побічна (неперевірена) деталь із вторинного опису:
+    загальна передмова Апостола 1525 р. звернена, за свідченнями, до
+    широкого мирського читача — це ближче до жанру 002b, ніж до 003; чи
+    том також несе апарат-звернення до духовенства, подібне до
+    Пересопницького «Сказанія», НЕ підтверджено без первинного тексту.
   next_step: >
-    Locate a scholarly transliteration (parallel to Chepiha's 2001
-    edition of Peresopnytsia) or a facsimile with legible apparatus
-    pages, BEFORE searching for exact forms. Do not infer be forms from
-    the uk pattern or from Skaryna's already-locked preface forms
-    (be-001 etc. are a different genre/witness).
+    Знайти наукову транслітерацію (паралельну до видання Чепіги 2001
+    для Пересопниці) чи факсиміле з розбірливими сторінками апарату,
+    ДО пошуку точних форм. Веб-запит проти цих самих заблокованих
+    хостів більше не має сенсу — потрібен інституційний/бібліотечний
+    шлях до Rothe 2002 чи НББ 2016. Не виводити be-форми з uk-патерну
+    чи з уже locked форм передмови Скорини (be-001 тощо — інший жанр/
+    свідок).
   do_not: >
-    Do not treat Skaryna's 1517 Psalter preface (be-001/003/005/006,
-    already locked into probe 002/002b) as evidence for THIS probe. Same
-    author, different book, different genre matter — no cross-genre
-    substitution.
+    Не трактувати передмову Псалтиря Скорини 1517 р. (be-001/003/005/
+    006, уже locked у probe 002/002b) як доказ ДЛЯ ЦЬОГО probe. Той
+    самий автор, інша книга, інший жанр — жодної міжжанрової заміни.
 
-## ————— STRUCTURAL NON-CANDIDATES (reasoned, not access gates) —————
+## ————— СТРУКТУРНО ВИКЛЮЧЕНІ (обґрунтовано, не бар'єри доступу) —————
 structural_exclusions:
   - language: sl
-    witness: Freising Manuscripts
+    witness: рукописи Фрайзинга
     reason: >
-      A confession-formula + sermon booklet has no lectionary index at
-      all — there is no book-apparatus genre slot for this probe to test
-      in this witness. This is a STRUCTURAL absence (wrong kind of book),
-      not a text-contingent or access gate, and not evidence about sl
-      grammar.
+      Книжечка сповідальних формул + проповіді взагалі не має покажчика
+      читань — немає жанрового слота книжкового апарату, який цей probe
+      міг би перевірити в цьому свідку. Це СТРУКТУРНА відсутність
+      (не той тип книги), не текстово-залежний бар'єр і не доказ про
+      граматику sl.
   - language: lt
-    witness: Vilnius prayers / Mažvydas Catechismus 1547
+    witness: молитви Вільнюса / Катехизис Мажвіда 1547
     reason: >
-      A prayer bundle and a catechism are not liturgical Gospel/Apostol
-      editions and carry no lectionary apparatus. Same structural
-      exclusion as sl, for the same reason (wrong genre of book, not a
-      language gap — lt already shows both numbers elsewhere, cf. 002b).
+      Збірка молитов і катехизис — не богослужбові видання Євангелія/
+      Апостола і не несуть апарату покажчика читань. Те саме структурне
+      виключення, що й для sl, з тієї самої причини (не той жанр книги,
+      не мовна прогалина — lt уже показує обидва числа деінде, див.
+      002b).
   - language: sa
-    witness: n/a in current corpus
+    witness: н/д у поточному корпусі
     reason: >
-      Not assessed. Whether any Sanskrit liturgical/ritual-manual
-      tradition has a structurally comparable "how to use this
-      index/table" apparatus genre is an open question requiring its own
-      investigation, not assumed absent. UNTESTED, not excluded.
+      Не оцінено. Чи має якась санскритська богослужбова/ритуальна
+      традиція структурно порівнянний жанр «як користуватися цим
+      покажчиком/таблицею» — відкрите питання, що потребує власного
+      дослідження, не припускається відсутнім. UNTESTED, не виключено.
 
-## ————— RESULT (current) —————
+## ————— РЕЗУЛЬТАТ (поточний) —————
 result:
   status: single-witness
   summary: >
-    One locked witness (uk, uk-004) shows the target pattern internally:
-    2PL when addressing the named plural clergy group, 2SG when
-    narrowing to an individual "тебе... брате" — same framing-not-
-    inheritance logic as 002b, now attested text-internally in a single
-    witness rather than only across witnesses. This is NOT a cross-
-    linguistic equal-cell result and must not be reported as one.
+    Один locked свідок (uk, uk-004) показує цільовий патерн
+    внутрішньотекстово: 2МН — при зверненні до названої множинної групи
+    духовенства, 2ОД — при звуженні до окремого «тебе... брате» — та
+    сама логіка «рамка, не спадковість», що й 002b, тепер засвідчена
+    внутрішньотекстово в одному свідку, а не лише між свідками. Це НЕ
+    міжмовний equal-cell результат і не повинно подаватися як такий.
   next_step: >
-    Resolve be Apostol 1525 access (candidate_be.next_step) before any
-    further claim. Hypotheses stay empty until a genuine second witness
-    is locked under this same genre_lock.
+    Вирішити доступ до be Апостола 1525 (candidate_be.next_step) перед
+    будь-якою подальшою заявою. Гіпотези лишаються порожніми, доки не
+    буде заблоковано справжнього другого свідка під тим самим
+    genre_lock.

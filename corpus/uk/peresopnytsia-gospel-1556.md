@@ -33,7 +33,7 @@ STATUS:      [PARTIAL-LIVE-TEXT]
 
 See [observations/uk-002-peresopnytsia-pater-number.md](../../observations/uk-002-peresopnytsia-pater-number.md).
 
-## Live sample — postface "Сказаніє со главахь и зачалєхь..." (edition OCR, p. 363, л. 442 зв.–444)
+## Живий зразок — післямова «Сказаніє со главахь и зачалєхь...» (OCR видання, стор. 363, л. 442 зв.–444)
 
 ```text
 Ѡци, и братїа, сщн'ници, и дїакони, и вс'Ь причєтници црковнїи.
@@ -49,9 +49,9 @@ See [observations/uk-002-peresopnytsia-pater-number.md](../../observations/uk-00
 Розоуміи же и Ѡ то(м) брате, ижє тии писмєна дробньш...
 ```
 
-2PL (`Видьте`, `виймайте`, `розоумійтє`) when the text names the full
-clergy audience; 2SG (`видь`, `розоумій`) when it narrows to "тебе...
-брате". See
+2МН (`Видьте`, `виймайте`, `розоумійтє`) — коли текст називає всю
+аудиторію духовенства; 2ОД (`видь`, `розоумій`) — коли звужується до
+«тебе... брате». Див.
 [observations/uk-004-peresopnytsia-postface-reader-address.md](../../observations/uk-004-peresopnytsia-postface-reader-address.md).
 
 ## Laboratory notes

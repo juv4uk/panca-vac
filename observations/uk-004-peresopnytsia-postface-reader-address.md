@@ -1,150 +1,153 @@
-# Observation uk-004 — Postface / "Сказаніє" reader-address imperatives (Peresopnytsia)
+# Спостереження uk-004 — звернення до читача в післямові/«Сказанії» (Пересопниця)
 
 ```text
 OBSERVATION_ID:  uk-004
-LANGUAGE:        uk (early modern Ruthenian / староукраїнська book language)
-WITNESS:         Пересопницьке Євангеліє 1556–1561 — postface + lectionary
-                 apparatus ("Сказаніє со главахь и зачалєхь..."), leaves
-                 442 зв.–444
-DATE:            manuscript 1556–1561 (this apparatus datable to the 1561
-                 Peresopnytsia completion phase, per colophon on the same
-                 leaves: "рокоу по бо(ж)ємь нарожєнїи, ҂зфѕа")
-PLACE:           Peresopnytsia monastery, Volhynia
-SOURCE_FILE:     corpus/uk/peresopnytsia-gospel-1556.md (this observation
-                 adds a second live sample to that file)
-WITNESS_STATUS:  PARTIAL-LIVE-TEXT via scholarly edition layer
+LANGUAGE:        uk (староукраїнська книжна мова)
+WITNESS:         Пересопницьке Євангеліє 1556–1561 — післямова + апарат
+                 покажчика читань («Сказаніе со главахь и зачалєхь...»),
+                 арк. 442 зв.–444
+DATE:            рукопис 1556–1561 (цей апарат датується завершальною
+                 фазою 1561 р. у Пересопниці — за колофоном на тих же
+                 аркушах: «рокоу по бо(ж)ємь нарожєнїи, ҂зфѕа»)
+PLACE:           Пересопницький монастир, Волинь
+SOURCE_FILE:     corpus/uk/peresopnytsia-gospel-1556.md (це спостереження
+                 додає до файлу другий живий зразок)
+WITNESS_STATUS:  PARTIAL-LIVE-TEXT через шар наукового видання
 EDITION_LAYER:   Чепіга І.П. та ін., Пересопницьке Євангеліє 1556–1561.
                  Дослідження. Транслітерований текст. Словопокажчик.
-                 Київ: НБУВ, 2001. Edition page 363 (TOC: "Післямова").
-                 OCR of that edition: Internet Archive item PY1561
-                 (PY1561_djvu.txt), fetched directly 2026-09-08.
+                 Київ: НБУВ, 2001. Сторінка видання 363 (у змісті:
+                 «Післямова»). OCR цього видання: Internet Archive,
+                 елемент PY1561 (PY1561_djvu.txt), завантажено напряму
+                 2026-09-08.
 ```
 
-## Why this observation exists — correcting a prior claim
+## Чому це спостереження виникло — виправлення попередньої заяви
 
-`observations/002b-third-language-gate.md` (2026-09-07 pass) described
-`uk` Peresopnytsia's candidate material as **"«Наука читання» / prefaces
-exist"**. That claim was made from the edition's table of contents /
-secondary description, not from the primary transliterated text itself.
+`observations/002b-third-language-gate.md` (прохід 2026-09-07) описав
+кандидатський матеріал `uk` як **««Наука читання» / передмови існують»**.
+Ця заява була зроблена зі змісту видання / вторинного опису, а не з
+самого транслітерованого тексту.
 
-Direct fetch of `PY1561_djvu.txt` and inspection of edition pages 121–132
-(the actual "Наука читання" section, opening the book) shows it is a
-**liturgical lectionary index (synaxarion)** — "Пов'Ьсть на обьхожденіе
-всего л'Ьта, числа євангельско..." ("A discourse on the yearly cycle,
-the numbering of the Gospel [readings]...") followed by tables of which
-pericope (за(ч)) to read on which weekday. It contains no didactic
-"take up and read" address to a general reader. **Genre does not match
-probe 002b's lock** (`selection.genre_lock`: didactic preface / book-to-
-reader poem urging the reader to take up the book). This corrects the
-2026-09-07 gate note, which was accurate to what the TOC/apparatus
-implied but not yet checked against the primary text.
+Пряме завантаження `PY1561_djvu.txt` і повне прочитання «Наука читання»
+(сторінки видання 121–132) показує, що це **літургійний покажчик
+читань (синаксар)** — «Пов'Ьсть на обьхожденіе всего л'Ьта, числа
+євангельско...» («Розповідь про річне коло, числення євангельських
+[читань]...»), далі — таблиці, яке зачало читати якого дня тижня. Там
+немає жодного дидактичного звернення «візьми й читай» до загального
+читача. **Жанр не збігається з locked-жанром probe 002b** (`selection.
+genre_lock`: дидактична передмова / вірш книга-до-читача, що закликає
+читача взяти книгу). Це виправляє нотатку від 2026-09-07, яка була
+точною щодо змісту/апарату видання, але ще не перевіреною за первинним
+текстом.
 
-## What the primary text actually contains
+## Що насправді містить первинний текст
 
-A **different** part of the same witness — the postface/lectionary-
-apparatus instructions at the end of the Gospel of John, before the
-saints'-calendar index ("Сказаніє со главахь и зачалєхь, со початкохь,
-и конкцехь. чтомимь євангліамь. оутрьнимь. и литор$гіинимь" — "An
-account of the chapters and pericopes, their beginnings and endings, of
-the Gospels read at matins and liturgy") — **does** carry direct
-second-person imperative address, alternating 2SG and 2PL within the
-same short passage depending on the named addressee scope.
+**Інша** частина того ж свідка — інструкції післямови/апарату покажчика
+читань наприкінці Євангелія від Йоана, перед покажчиком свят
+(«Сказаніе со главахь и зачалЬхь, со початкохь, и конкцехь. чтомимь
+євангліамь. оутрьнимь. и литор$гіинимь» — «Опис глав і зачал, їхніх
+початків і кінців, Євангелій, що читаються на утрені й літургії») —
+**таки** несе пряме звернення в наказовому способі 2-ї особи, з
+чергуванням однини й множини всередині одного короткого уривка,
+залежно від названого адресата.
 
-### 2PL — addressed to the full named audience
+### 2МН — звернено до всієї названої аудиторії
 
 ```text
-EXACT_SENTENCE (edition OCR, leaf ~442 зв.–443):
+EXACT_SENTENCE (OCR видання, арк. ~442 зв.–443):
   "Ѡци, и братїа, сщн'ници, и дїакони, и вс'Ь причєтници црковнїи.
    Видьте, а виймайте соб'Ь. Аби есте на(м) пишоучи(м), сїє єу(г)лїє
    пре нєдозорь свои, не зле рєчили."
 EXACT_FORM:        Видьте, виймайте
-GRAMMATICAL_FORM:  imperative 2PL
-ADDRESSEE:         "Ѡци, и братїа, сщенници, и дїакони, и всЬ причетници
-                    церковнії" — fathers, brothers, priests, deacons, all
-                    church clergy (explicit plural noun list)
+GRAMMATICAL_FORM:  наказовий спосіб, 2МН
+ADDRESSEE:         «Ѡці, и братїа, сщенници, и дїакони, и всЬ причетници
+                    церковнії» — отці, брати, священники, диякони, все
+                    церковне духовенство (явний перелік у множині)
 ```
 
 ```text
-EXACT_SENTENCE (leaf ~443):
+EXACT_SENTENCE (арк. ~443):
   "Здє пакь братїа. и Ѡці. сщєн'ници, и дїакони. Прочитаючи тоє писанїє
-   розоумійтє. Ѡ чомь даєми вами наоукоу, котораа єсть моудрій, и
+   розоумійтє. Ѡ чомь даєми вами наоукоу, котораа є моудрій, и
    досконалЬи положена."
 EXACT_FORM:        розоумійтє
-GRAMMATICAL_FORM:  imperative 2PL
-ADDRESSEE:         same clergy group, re-addressed
+GRAMMATICAL_FORM:  наказовий спосіб, 2МН
+ADDRESSEE:         та сама група духовенства, повторне звернення
 ```
 
-### 2SG — addressed to a single reader/brother
+### 2ОД — звернено до одного читача/брата
 
 ```text
-EXACT_SENTENCE (leaf 443):
+EXACT_SENTENCE (арк. 443):
   "Прошоу тебе, видь. аби єси не зоупиниль себе, на прєписко(х), зри
    дробнаго писанїа."
 EXACT_FORM:        видь
-GRAMMATICAL_FORM:  imperative 2SG (agrees with "тебе", "єси")
-ADDRESSEE:         unnamed individual reader ("тебе")
+GRAMMATICAL_FORM:  наказовий спосіб, 2ОД (узгоджено з «тебе», «єси»)
+ADDRESSEE:         неназваний окремий читач («тебе»)
 ```
 
 ```text
-EXACT_SENTENCE (leaf 443):
+EXACT_SENTENCE (арк. 443):
   "Розоуміи же и Ѡ то(м) брате, ижє тии писмєна дробньш, вь Ѡчєрьта(х)
    положений, гдє то взиваєтсА глава."
 EXACT_FORM:        розоумій
-GRAMMATICAL_FORM:  imperative 2SG
-ADDRESSEE:         "брате" — vocative singular "brother"
+GRAMMATICAL_FORM:  наказовий спосіб, 2ОД
+ADDRESSEE:         «брате» — кличний відмінок однини «брате»
 ```
 
-## What this shows
+## Що це показує
 
-Within **one uk witness**, the same didactic-instructional genre hosts
-both 2PL (when the text names a plural audience: "Ѡці, и братїа,
-сщенници, и дїакони...") and 2SG (when it narrows to "тебе... брате").
-This is a **text-internal** confirmation of exactly the pattern 002b
-already established **across** be and lt: number tracks addressee
-framing, not a language-level absence of either number. It also matches
-`uk-002`'s independent finding (Sermon-on-the-Mount 2PL forms
-`вистєрігайтєсА`, `радоуи-тєса, а веселітесА` vs Pater-Noster 2SG-to-God)
-— a third, independent uk data point for the same framing-not-inheritance
-rule, now inside the postface genre specifically.
+**В одному** українському свідку той самий дидактично-інструктивний
+жанр несе і 2МН (коли текст називає множинну аудиторію: «Ѡці, и братїа,
+сщенници, и дїакони...»), і 2ОД (коли звужується до «тебе... брате»).
+Це **всередині-текстове** підтвердження саме того патерну, який 002b
+уже встановив **між** be й lt: число слідує за рамкою адресата, а не за
+відсутністю якогось числа на рівні мови. Це також узгоджується з
+незалежною знахідкою `uk-002` (форми Нагірної проповіді 2МН
+`вистєрігайтєсА`, `радоуи-тєса, а веселітесА` проти 2ОД-до-Бога в Отче
+наш) — третя, незалежна українська точка даних для того самого правила
+«рамка адресата, не спадковість», тепер саме в жанрі післямови.
 
-## Relation to probe 002b — deliberately NOT merged
+## Стосунок до probe 002b — свідомо НЕ злито
 
-This passage is **not** the same genre as 002b's locked selection
-(`didactic preface / book-to-reader poem` urging book purchase/reading,
-addressed to a lay learner — be Skaryna, lt Mažvydas). Here the audience
-is explicitly clergy ("сщенници, и дїакони"), and the content is
-instruction on using a lectionary index and forgiveness for scribal
-error, not "take up and read this book". Per `method/evidence.md` and
-the standing gate rule ("Do NOT promote a third cell from secondary
-description alone. Do NOT reopen 002b form search without pre-lock of
-language + witness"), this observation is filed as its own record, not
-folded into `002b-STATUS.md`'s two established cells. Whether this
-becomes a new pre-locked probe (clergy/index-instruction address, 2SG↔2PL
-by addressee scope) is a decision for the next explicitly pre-locked
-probe, not this observation.
+Цей уривок **не** того самого жанру, що locked-вибірка 002b (дидактична
+передмова / вірш книга-до-читача, що закликає купити/читати книгу,
+звернена до мирського учня — be Скорина, lt Мажвід). Тут аудиторія явно
+духовенство («сщенници, и дїакони»), а зміст — інструкція користування
+покажчиком читань і прохання пробачити писарську помилку, а не «візьми
+й читай цю книгу». За `method/evidence.md` і стандартним правилом gate
+(«Не просувати третю клітинку лише з вторинного опису. Не відкривати
+пошук форм 002b знову без pre-lock мови + свідка»), це спостереження
+подається як окремий запис, а не вливається в два встановлені
+клітинки `002b-STATUS.md`. Чи стане це новим pre-locked probe
+(звернення духовенство/покажчик, 2ОД↔2МН за рамкою адресата) — рішення
+наступного явно заблокованого probe, не цього спостереження.
 
 ## Remainder
 
 ```text
 REMAINDER:
-  - Whether other East Slavic / Baltic print colophons show the same
-    SG/PL-by-addressee-scope alternation in the SAME genre (clergy/index
-    instruction) is untested — would need its own pre-lock.
-  - Exact folio boundaries (442 зв./443/443 зв./444) read from inline
-    OCR folio markers, not cross-checked against facsimile.
-  - Layer is scholarly-edition OCR (Chepiha 2001 via IA), not MS
-    diplomatic photograph.
+  - Чи показують інші східнослов'янські/балтійські друковані колофони
+    те саме чергування ОД/МН за рамкою адресата в ТОМУ Ж жанрі
+    (духовенство/інструкція покажчика) — не перевірено; потребує
+    власного pre-lock.
+  - Точні межі аркушів (442 зв./443/443 зв./444) прочитані з внутрішніх
+    OCR-міток аркуша, не звірені з факсиміле.
+  - Шар — OCR наукового видання (Чепіга 2001 через IA), не дипломатичне
+    фото рукопису.
 NOT TESTABLE:
-  - Whether "Наука читання" (the OPENING section, edition pp. 121-132)
-    ever uses reader-address imperatives at all — this pass read it in
-    full and found none; treated as a closed, source-confirmed negative
-    result for that specific section, not an access gate.
+  - Чи використовує «Наука читання» (ВІДКРИВАЮЧИЙ розділ, стор. видання
+    121-132) звернення до читача в наказовому способі взагалі — цей
+    прохід прочитав його повністю й не знайшов жодного; трактується як
+    закритий, source-confirmed негативний результат для цього
+    конкретного розділу, не як бар'єр доступу.
 ```
 
-## Notes
+## Примітки
 
-- No inheritance claim vs sl/lt/be/sa.
-- Corrects `observations/002b-third-language-gate.md`'s 2026-09-07
-  characterization of the uk candidate; see that file's update.
-- Minimal quotes only; full 2001 edition / IA OCR file not vendored
-  in-repo, per the same copyright discipline as uk-002/uk-003.
+- Жодної заяви про спадковість щодо sl/lt/be/sa.
+- Виправляє характеристику `observations/002b-third-language-gate.md`
+  від 2026-09-07 щодо кандидата uk; див. оновлення того файлу.
+- Лише мінімальні цитати; повний OCR-файл видання 2001 р. / IA не
+  вендориться в репо, за тією ж дисципліною авторського права, що й
+  uk-002/uk-003.
