@@ -13,7 +13,7 @@
 
 | Lang | Source | Status |
 |------|--------|--------|
-| **be** | Skaryna, Apostol, Vilna 1525 | genre-plausible; **access blocked** (rusneb.ru 403, 2026-09-08); no OCR/transliteration located yet |
+| **be** | Skaryna, Apostol, Vilna 1525 | genre-plausible; **access confirmed blocked**, two independent mechanisms checked 2026-09-08 (rusneb.ru: VPN/geo-block, not bot-detection — confirmed via its own interstitial page text; raruss.ru: TLS handshake failure). Two real scholarly editions exist (Rothe et al. 2002 facsimile+commentary; NLB Minsk 2016 facsimile) but are institutional/physical, not fetched here. See `research/skaryna-sources.md` for full detail, including an unconfirmed secondary-description note that the volume's OWN general preface looks more like 002b's lay-reader genre than 003's clergy/apparatus genre — do not assume either way without the primary text. |
 
 ## What is structurally excluded (not an access gate)
 

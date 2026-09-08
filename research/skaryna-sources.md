@@ -28,17 +28,39 @@ printing tradition conventionally carry their own Epistle-pericope index
 apparatus, the same front/back-matter convention that carries the uk-004
 witness in Peresopnytsia.
 
-Checked 2026-09-08:
+Checked 2026-09-08, second pass (confirming the barrier, not just noting it):
 
-- `rusneb.ru` digitised copy: **HTTP 403** on direct fetch (same failure
-  class as `uk-001`'s archives.gov.ua 403 — an access barrier, not
-  evidence about the text).
-- `raruss.ru`: antiquarian-bookseller description page only, no
-  transcribed text.
-- No OCR / scholarly transliteration layer located this pass.
+- `rusneb.ru`: direct `curl` fetch (not just the AI-fetch tool) returns
+  **HTTP 403** with a Russian-language interstitial page whose own
+  `<title>` reads "Отключите VPN — НЭБ" ("Turn off VPN — NEB") and whose
+  `<meta description>` explicitly states it is a VPN-detection stub. This
+  is a **network/geographic block**, not a bot-detection or authentication
+  wall — confirms the earlier note, now with the actual mechanism, not
+  just the status code.
+- `raruss.ru`: TLS handshake itself fails (`SSL ... TLSV1_ALERT_UNRECOGNIZED_NAME`)
+  from this environment — a second, independent access failure, different
+  mechanism than the NEB block.
+- `ru.wikisource.org`'s "Библия Франциска Скорины" page: catalog/
+  bibliography only, confirmed to hold no transcribed text of the Apostol.
+- No free-standing OCR or online transliteration layer located. Two real
+  scholarly editions exist but are not freely digitised: Hans Rothe et al.,
+  *Bibliia ruska / Apostol, Wilna 1525: Faksimile und Kommentar* (Ferdinand
+  Schöningh, 2002), and Belarus National Library's *Кніжная спадчына
+  Францыска Скарыны* (Minsk, 2016) — both physical/institutional
+  publications, not checked here.
+- Incidental finding (secondary description, `raruss.ru` search snippet,
+  **not** primary-source-confirmed): the 1525 Apostol reportedly opens
+  with a **general** preface ("Дѣяния святых апостол книг предмова")
+  addressed to a broad lay readership, plus 22 per-book prefaces and 17
+  postscripts of exegetical commentary — this profile actually looks
+  closer to probe 002/002b's already-established genre (lay reader
+  address) than to 003's clergy/lectionary-apparatus target. Whether the
+  volume *also* carries a clergy-addressed index apparatus comparable to
+  Peresopnytsia's "Сказаніе" (needed for 003) is **unconfirmed** without
+  the primary text — do not assume either way from this snippet.
 
-This is an **access gate**, not a linguistic absence. Next step: locate
-a scholarly transliteration (parallel to Chepiha's 2001 Peresopnytsia
-edition) or a legible facsimile of the apparatus pages, before searching
-for exact forms. See `alignments/003-STATUS.md` for the full candidate
-record.
+This is a **confirmed access gate** (two independent, different-mechanism
+failures), not a linguistic absence. Next step, if pursued: an
+institutional/library route to Rothe 2002 or NLB 2016, not another web
+fetch attempt against the same blocked hosts. See `alignments/003-STATUS.md`
+for the full candidate record.
