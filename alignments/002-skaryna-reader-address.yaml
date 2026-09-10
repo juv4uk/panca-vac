@@ -32,6 +32,8 @@ witness:
   witness_status: FACSIMILE + PARTIAL-LIVE-TEXT
   file: corpus/be/skaryna-psalter-1517.md
   transcript_layer: biblia.by transcript, preface only
+  facsimile_file: research/assets/skaryna-psalter-1517.pdf
+  facsimile_pages: PDF pages 3-5; opening preface layer
   source_date: 6 August 1517
   place: Prague
 
@@ -53,6 +55,15 @@ evidence:
     gloss: read.IMP often
     context: direct didactic address to the reader
     grammatical_form: imperative 2SG
+
+## ————— SOURCE CHECK —————
+source_check:
+  status: FACSIMILE-CHECKED
+  observation: observations/be-003-skaryna-preface-facsimile-check.md
+  boundary: >
+    The facsimile corroborates the opening preface layer and page range;
+    exact forms remain transcript-layer readings and are not presented as
+    a new diplomatic transcription.
 
 ## ————— COMPARISON —————
 comparison:
@@ -90,7 +101,7 @@ remainder:
 ## ————— META —————
 meta:
   did_fields_help: true
-  fields_used: [witness, exact_form, grammatical_form, context, remainder]
+  fields_used: [witness, exact_form, grammatical_form, context, source_check, remainder]
   fields_missed: >
     A body-text comparison field was intentionally not used because the
     Psalter body is not yet promoted to LIVE-TEXT.
